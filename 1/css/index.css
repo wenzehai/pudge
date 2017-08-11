@@ -1,0 +1,220 @@
+/*公用部分*/
+.center {
+	width: 1190px;
+	margin: 0 auto;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+/*index页面部分*/
+body {
+	background: url(../img/headerwrap.jpg) no-repeat center top;
+	background-attachment: scroll;
+}
+#siteNav h2 {
+	display: inline-block;
+	margin: 0;
+	line-height: 20px;
+	color: #eb943c;
+}
+#siteNav .navbar-default {
+	/*background: rgba(255,255,255,0.1);*/
+	/*border-bottom: none;*/
+}
+#siteNav .navbar-default .navbar-nav > li > a.active {
+	color: #eb943c;
+}
+#siteNav .navbar-default .navbar-nav > li > a {
+	color: #333333;
+	font-size: 16px;
+}
+#siteNav .navbar-default .navbar-nav > li > a:hover {
+	color: #eb943c;
+	/*border-bottom: 1px solid #eb943c;*/
+}
+#firstview .center {
+	position: relative;
+	min-height: 700px;
+	/*background: green;*/
+}
+#firstview .center .textBox {
+	height: 100%;
+	/*background: blue;*/
+}
+#firstview h2 {
+	font-size: 46px;
+	margin-top: 300px;
+	line-height: 72px;
+	font-weight: lighter;
+}
+#firstview p {
+	font-size: 18px;
+	line-height: 30px;
+}
+#firstview a {
+	display: inline-block;
+	margin-top: 14px;
+	background: #fa9f44;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 44px;
+	padding: 0 15px;
+	text-decoration: none;
+}
+#firstview a:hover {
+	background: #eb943c;
+}
+#firstview span {
+	
+	display: block;
+	margin: 0 auto;
+	margin-top: 300px;
+	text-align: center;
+	color: #eb943c;
+	font-size: 24px;
+}
+#advantage {
+	background: #FFFFFF;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+#advantage .adv_hd h3 {
+	text-align: center;
+}
+#advantage .adv_hd span {
+	display: block;
+	width: 120px;
+	height: 2px;
+	background: #eb943c;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#advantage .adv_bd .adv_item {
+	height: 360px;	
+	position: relative;
+	padding: 30px;
+	margin-bottom: 80px;
+	transition: all 0.5s;
+}
+#advantage .adv_bd .adv_item:nth-child(1) {
+	background:  url(../img/icon_project_gray.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(1):hover {
+	background: #f3f7fa url(../img/icon_project_pre.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(2) {
+	background:  url(../img/icon_quality_gray.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(2):hover {
+	background: #f3f7fa url(../img/icon_quality_pre.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(3) {
+	background:  url(../img/icon_time_gray.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(3):hover {
+	background: #f3f7fa url(../img/icon_time_pre.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(4) {
+	background:  url(../img/icon_service_gray.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item:nth-child(4):hover {
+	background: #f3f7fa url(../img/icon_service_pre.png) no-repeat center 68px;
+}
+#advantage .adv_bd .adv_item h4 {
+	margin-top: 125px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	line-height: 24px;
+}
+#advantage .adv_bd .adv_item span {
+	display: block;
+	width: 60px;
+	height: 2px;
+	background: #eb943c;
+	text-align: center;
+	margin: 8px auto 22px auto;
+}
+#advantage .adv_bd .adv_item p {
+	text-align: center;
+	font-size: 16px;
+	color: #333333;
+	line-height: 24px;
+}
+
+#products {
+	background: #f2f2f2;
+	padding: 40px auto 60px auto;
+}
+#products  .prod_hd h3 {
+	margin-top: 40px;
+	text-align: center;
+}
+#products  .prod_hd span {
+	display: block;
+	width: 120px;
+	height: 2px;
+	background: #eb943c;
+	text-align: center;
+	margin: 0 auto;
+}
+#products .prod_bd .prod_item {
+	height: 380px;
+	margin-top: 40px;
+}
+#products .prod_bd img {
+	/*padding-left: 30px;*/
+	text-align: right;
+}
+#products .prod_bd h3 {
+	font-size: 36px;
+	line-height: 36px;
+	margin: 0;
+}
+#products .prod_bd dl {
+	margin-top: 50px;
+}
+#products .prod_bd dl dd {
+	font: 18px/24px "微软雅黑";
+}
+#products .prod_bd a {
+	display: inline-block;
+	margin-top: 14px;
+	background: #fa9f44;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 44px;
+	padding: 0 15px;
+	text-decoration: none;
+}
+#products .prod_bd a:hover {
+	background: #eb943c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
