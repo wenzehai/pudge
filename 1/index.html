@@ -21,6 +21,7 @@
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,135 +36,158 @@
 	</head>
 
 	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+				<a class="navbar-brand" href="#"><img src="img/Logo.png" title="PUDGE" alt="PUDGE" /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="dropdown" ><a href="#">首页</a></li>
+						<li class="dropdown dropdown_feature">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="">公司产品<span class="caret"></span></a>
+							<ul class="dropdown-menu features_menu">
+								<li class="col-md-6 col-sm-6">
+									<h4>用友</h4>
+									<ul>
+										<li>
+											<a href="#">NC6</a>
+										</li>
+										<li>
+											<a href="#">U8+</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-6 col-sm-6">
+									<h4>行业产品</h4>
+									<ul>
+										<li>
+											<a href="#">房地产行业</a>
+										</li>
+										<li>
+											<a href="#">金融行业</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown dropdown_feature">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="">客户服务<span class="caret"></span></a>
+							<ul class="dropdown-menu features_menu">
+								<li class="col-md-6 col-sm-6">
+									<h4>用友软件实施服务</h4>
+									<ul>
+										<li>
+											<a href="#">ERP</a>
+										</li>
+										<li>
+											<a href="#">SCM</a>
+										</li>
+										<li>
+											<a href="#">CRM</a>
+										</li>
+										<li>
+											<a href="#">OA</a>
+										</li>
+										<li>
+											<a href="#">EAM</a>
+										</li>
+										<li>
+											<a href="#">HR</a>
+										</li>
+									</ul>
+								</li>
+								<li class="col-md-6 col-sm-6">
+									<h4>IT人员外包输出</h4>
+									<ul>
+										<li>
+											<a href="#">售前支持</a>
+										</li>
+										<li>
+											<a href="#">项目整包</a>
+										</li>
+										<li>
+											<a href="#">人才租赁</a>
+										</li>
+										<li>
+											<a href="#">IT咨询</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">经典案例<span class="caret"></span></a>
+							<ul class="dropdown-menu normal_menu">
+								<li>
+									<a href="#">典型客户</a>
+								</li>
+								<li>
+									<a href="#">经典案例</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">关于帕吉<span class="caret"></span></a>
+							<ul class="dropdown-menu benefits_menu">
+								<li>
+									<a href="#">公司介绍</a>
+								</li>
+								<li>
+									<a href="#">愿景、使命和价值观</a>
+								</li>
+								<li>
+									<a href="#">发展历程</a>
+								</li>
+								<li>
+									<a href="#">资质荣誉</a>
+								</li>
+								<li>
+									<a href="#">公司动态</a>
+								</li>
+								<li>
+									<a href="#">签约快讯</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">联系我们</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<!-- 头部 -->
-		<header id="siteNav">
-			<nav class="navbar navbar-default navbar-fixed-top">
-						<div class="container">
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					        <span class="sr-only">Toggle navigation</span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					        <span class="icon-bar"></span>
-					      </button>
-								<a class="navbar-brand" href="#"><h2>LOGO</h2></a>
-							</div>
-	
-							
-							<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav navbar-right">
-									<li>
-										<a href="index.html" class="active">首页</a>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于帕吉 <span class="caret"></span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<a href="#">公司介绍</a>
-											</li>
-											<li>
-												<a href="#">愿景、使命和价值观</a>
-											</li>
-											<li>
-												<a href="#">发展历程</a>
-											</li>
-											<li>
-												<a href="#">资质荣誉</a>
-											</li>
-											<li>
-												<a href="#">新闻中心</a>
-											</li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品介绍 <span class="caret"></span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<a href="#">用友NC6</a>
-											</li>
-											<li>
-												<a href="#">用友U8+</a>
-											</li>
-											<li role="separator" class="divider"></li>
-											<li>
-												<a href="#">房地产行业</a>
-											</li>
-											<li>
-												<a href="#">金融行业</a>
-											</li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">客户服务 <span class="caret"></span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<a href="#">用友ERP软件实施服务</a>
-											</li>
-											<li>
-												<a href="#">用友SCM软件实施服务</a>
-											</li>
-											<li>
-												<a href="#">用友CRM软件实施服务</a>
-											</li>
-											<li role="separator" class="divider"></li>
-											<li>
-												<a href="#">售前支持</a>
-											</li>
-											<li>
-												<a href="#">项目整包</a>
-											</li>
-											<li>
-												<a href="#">人才租赁</a>
-											</li>
-											<li>
-												<a href="#">IT咨询</a>
-											</li>
-										</ul>
-									</li>
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">经典案例 <span class="caret"></span></a>
-										<ul class="dropdown-menu">
-											<li>
-												<a href="#">典型客户</a>
-											</li>
-											<li>
-												<a href="#">经典案例</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-												<a href="#">联系我们</a>
-											</li>
-								</ul>
-							</div>
-							<!-- /.navbar-collapse -->
-						</div>
-						<!-- /.container-fluid -->
-			</nav>
-		</header>
+		
 
 
 		<!-- 主体内容 -->
-			<div id="firstview" class="container-fluid">
-					<div class="row center">
-							<div class="col-xs-12 col-md-10 col-md-offset-2 col-lg-10 col-lg-offset-2 textBox">
-								<h2>最值得信赖的企业信息化服务专家</h2>
-								<p>一流的技术、全面的解决方案，卓越的信誉助力企业升级成长</p>
-								<a href="#">查看案例</a>
-							</div>
-							<div class="col-xs-12 col-md-12 col-lg-12">
-								<span class="glyphicon glyphicon-menu-down"></span>
-							</div>
+		<div class="slide_content">
+			<div class="center">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-md-12  col-lg-12 textBox fadeInLeft  animated ">
+							<h2>最值得信赖的企业信息化服务专家</h2>
+							<p>一流的技术、全面的解决方案，卓越的信誉助力企业升级成长</p>
+							<a href="#">查看案例</a>
+						</div>
 					</div>
+				</div>
 			</div>
-			<div id="advantage" class="container-fluid">
-				<div class="row center">
-					<div class="adv_hd col-xs-12 col-md-12 col-lg-12">
-						<h3>为什么选择我们？</h3>
+		</div>
+		<div class="advantage">
+			<div class="center">
+				<div class="container">
+					<div class="row adv_hd animated bounceIn">
+						<h3>为什么选择我们</h3>
 						<span class="sep1"></span>
 					</div>
-					<div class="adv_bd">
+					<div class="row adv_bd">
 						<div class="col-xs-12 col-md-3 col-lg-3 adv_item">
 							<h4>方案合理</h4>
 							<span class="sep2"></span>
@@ -187,17 +211,20 @@
 					</div>
 				</div>
 			</div>
-			<div id="products" class="container-fluid">
-				<div class="row center">
-					<div class="prod_hd col-xs-12 col-md-12 col-lg-12">
+		</div>	
+		
+		<div class="products">
+			<div class="center">
+				<div class="container">
+					<div class="row prod_hd animated bounceIn">
 						<h3>我们的产品</h3>
 						<span class="sep1"></span>
 					</div>
-					<div class="prod_bd">
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item">
+					<div class="row prod_bd">
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item animated fadeInDown ">
 							<img src="img/products_yongyou.jpg" alt="用友ERP" />
 						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item">
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item  animated fadeInRight">
 							<h3>企业ERP管理系统</h3>
 							<dl>
 								<dd>面向大、中型企业的ERP管理与电子商务平台 </dd>
@@ -208,7 +235,7 @@
 							</dl>
 							<a href="#">查看详情</a>
 						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item">
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item animated fadeInLeft">
 							<h3>企业ERP定制化解决方案</h3>
 							<dl>
 								<dd>量身定制，个性化开发，企业专属的ERP系统 </dd>
@@ -219,192 +246,150 @@
 							</dl>
 							<a href="#">查看详情</a>
 						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item">
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item  animated fadeInUp">
 							<img src="img/products_pudge.jpg" alt="用友ERP" />
 						</div>
 					</div>
 				</div>
 			</div>
-			
-			<div id="service" class="container-fluid">
-				<div class="row center">
-					<div class="service_hd col-xs-12 col-md-12 col-lg-12">
+		</div>
+		<div class="service">
+			<div class="center">
+				<div class="container">
+					<div class="row service_hd">
 						<h3>我们的服务</h3>
 						<span class="sep1"></span>
 					</div>
-					<div class="service_bd col-xs-12 col-md-4 col-lg-4">
-						
+					<div class="row service_bd">
+						<div class="col-xs-12 col-md-12 col-lg-12 subTitle">
+							<p>用友软件实施与运维</p>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+							<h4><a href="#">ERP企业资源管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+							<h4><a href="#">HR人力资源管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+							<h4><a href="#">SCM软件配置管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+							<h4><a href="#">CRM客户关系管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+							<h4><a href="#">OA企业办公管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+							<h4><a href="#">EAM企业资产管理系统</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+					</div>
+					<div class="row service_bd">
+						<div class="col-xs-12 col-md-12 col-lg-12 subTitle2">
+							<p>IT人力外包输出</p>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+							<h4><a href="#">售前支持</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+							<h4><a href="#">人才租赁</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+							<h4><a href="#">项目整包</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInRight">
+							<h4><a href="#">IT咨询</a></h4>
+							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
+							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
+						</div>
 					</div>
 				</div>
 			</div>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<br></br>
-		<!-- 侧边栏 -->
-		<aside>
-
-		</aside>
+		</div>
+		<div class="projects">	
+			<div class="center">
+				<div class="container">
+					<div class="row projects_hd animated bounceIn">
+						<h3>成功案例</h3>
+						<span class="sep1"></span>
+					</div>
+					<div class="row projects_bd">
+						<div class="col-sm-12 col-md-3 col-lg-3 ">
+							<div class="projects_item">
+								<a href="#">
+								<img src="img/projects1.jpg" alt="coca cola" />
+								<p>可口可乐</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="projects_item">
+								<a href="#">
+								<img src="img/projects2.jpg" alt="碧桂园" />
+								<p>碧桂园</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="projects_item">
+								<a href="#">
+								<img src="img/projects3.jpg" alt="中山国资委" />
+								<p>中山国资委</p>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-3 col-lg-3">
+							<div class="projects_item">
+								<a href="#">
+								<img src="img/projects4.jpg" alt="中国燃气" />
+								<p>中国燃气</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- 底部 -->
 		<footer>
-
+		<div class="footer1">
+			<div class="center">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-4 col-lg-4">
+							<div class="loveBox">
+								<img src="img/love.png" alt="PUDGE" />
+								<p>专注软件运维10年</p>
+								<p>服务客户100+</p>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-8 col-lg-8 sloganBox">
+							<p>因为用心，所以放心</p>
+							<p class="subSlogan">10年专注企业客户信息化，助力企业发展与变革</p>
+							<button><img src="img/phone.png" alt="联系我们" />0731－85537586</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		</footer>
 		<!--[if lte IE 8]>
 		<![endif]-->
