@@ -266,22 +266,22 @@ ul.dropdown-menu.normal_menu>li>a:hover {
 
 /*service*/
 .service {
-	margin: 40px 0;
+	margin-bottom: 40px;
 }
 .service .service_hd {
-	margin-bottom: 60px;
+	margin-top: 40px;
+	/*margin-bottom: 20px;*/
 	text-align: center;
 }
 .service .service_hd h3 {
 	font: lighter 36px/36px "微软雅黑";
-	margin-bottom: 24px;
 }
 .service .service_hd span.sep1 {
 	display: block;
 	width: 40px;
 	height: 1px;
 	background: #0277bd;
-	margin: 0 auto 24px auto;
+	margin: 24px auto 24px auto;
 }
 .service .service_bd .serviceItem {
 	margin-top: 20px;
@@ -296,12 +296,14 @@ ul.dropdown-menu.normal_menu>li>a:hover {
 	text-decoration: none;
 }
 .service .service_bd .serviceItem span {
-	
 	display: block;
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
 	margin: 0 auto 18px auto;
+}
+.service .service_bd .serviceItem span img {
+	padding-top: 4px;
 }
 .service .service_bd .serviceItem a {
 	color: #333333;
@@ -312,36 +314,122 @@ ul.dropdown-menu.normal_menu>li>a:hover {
 .service .service_bd .serviceItem p {
 	font: lighter 14px/18px "微软雅黑";
 }
-.service .service_bd span:nth-child(1) {
+.service .service_bd span.icon1 {
 	background: #524f69;
 }
-.service .service_bd span:nth-child(2) {
-	background: #333333;
+.service .service_bd span.icon2 {
+	background: #0277bd;
 }
-/*.service .service_bd span:nth-of-type(2) {
+.service .service_bd span.icon3 {
+	background: #7cc8ec;
+}
+.service .service_bd span.icon4 {
+	background: #88c9c5;
+}
+.service .service_bd span.icon5 {
+	background: #f47264;
+}
+.service .service_bd span.icon6 {
+	background: #f8d35e;
+}
+
+
+/*小轮播*/
+
+.carousel-info {
+	background: #0277bd;
+	text-align: center;
+	color: #FFFFFF;
+	height: 404px;
+}
+.carousel-info a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.carousel-info img {
+	margin-top: 80px;
+	
+}
+.carousel-info h4 {
+	margin-top: 50px;
+	font: lighter 36px/36px "微软雅黑";
+}
+.carousel-info p {
+	margin-top: 40px;
+	font: lighter 14px/24px "微软雅黑";
+}
+
+.projects {
+	background: #eeefe9;
+	padding: 40px 0;
+}
+.projects .projectsBox {
+	width: 100%;
+	text-align: center;
+}
+.projects .proj1 {
+	background: url(../img/company1.png) no-repeat top center;
+}
+.projects .proj2 {
+	background: url(../img/company2.png) no-repeat top center;
+}
+.projects .proj3 {
+	background: url(../img/company3.png) no-repeat top center;
+}
+.projects .projectsBox a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.projects .projectsBox img {
+	padding: 80px 0 0 0;
+}
+.projects .projectsBox p {
+	font: lighter 24px/24px "微软雅黑";
+	padding: 20px 0 80px 0;
+}
+.projects .projects_bd > div {
+	text-align: center;
+}
+.projects .projects_bd p.companyName {
+	margin-top: 36px;
+}
+.projects .projects_bd p.companyName a {
+	color: #333333;
+	text-decoration: none;
+	font: lighter 24px/24px "微软雅黑";
+}
+
+
+.footer1 {
+	text-align: center;
+	min-height: 320px;
+	background: url(../img/about-yuanjing.jpg) no-repeat center top;
+	color: #FFFFFF;
+}
+.footer1 img {
+	margin-top: 65px;
+}
+.footer1 p {
+	margin-top: 40px;
+	font: lighter 14px/20px "微软雅黑";
+}
+.footer2 {
 	background: #333333;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	color: #FFFFFF;
+}
+.footer2 .footerInfo_hd {
+	margin: 26px 0 16px 0;
+	font: 18px/18px "微软雅黑";
+	text-align: left;
+}
+.footer2 .footerInfo_bd {
+	text-align: center;
+}
+.footer2 .footerInfo_bd strong {
+	display: inline-block;
+	margin: 20px 0;
+	font: 18px/24px "微软雅黑";
+}
 
 
 
