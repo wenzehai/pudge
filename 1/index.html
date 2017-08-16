@@ -8,16 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>pudge首页v1</title>
 
-		<!--
-     引入font-awesome，
-    将fontawesome压缩包解压到项目目录里，然后引用下面的链接央视，最终在图标位置插入<i class="fa fa-..."></i> 
-    -->
-		<!-- 
-    <link rel="stylesheet" type="text/css" href="font-awesome.min.css"> 
-    -->
-
-		<!-- 引入自带的Glyphicons -->
-		<!-- 引入方法为<span class="glyphicon glyphicon-search"></span> -->
 
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.css" rel="stylesheet">
@@ -36,21 +26,24 @@
 	</head>
 
 	<body>
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+		
+		<!-- 头部 -->
+		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			        <span class="icon-bar"></span>
-			      </button>
-				<a class="navbar-brand" href="#"><img src="img/Logo.png" title="PUDGE" alt="PUDGE" /></a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#siteNav" aria-expanded="false">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+					<a class="navbar-brand" href="#"><img src="img/Logo.png" title="PUDGE" alt="PUDGE" /></a>
 				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav">
+
+				<div class="collapse navbar-collapse" id="siteNav">
+					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown" ><a href="#">首页</a></li>
 						<li class="dropdown dropdown_feature">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="">公司产品<span class="caret"></span></a>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">公司产品<span class="caret"></span></a>
 							<ul class="dropdown-menu features_menu">
 								<li class="col-md-6 col-sm-6">
 									<h4>用友</h4>
@@ -160,101 +153,112 @@
 						</li>
 					</ul>
 				</div>
+				<!-- /.navbar-collapse -->
 			</div>
+			<!-- /.container-fluid -->
 		</nav>
-		<!-- 头部 -->
-		
+
 
 
 		<!-- 主体内容 -->
-		<div class="slide_content">
-			<div class="center">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 col-md-12  col-lg-12 textBox fadeInLeft  animated ">
-							<h2>最值得信赖的企业信息化服务专家</h2>
-							<p>一流的技术、全面的解决方案，卓越的信誉助力企业升级成长</p>
-							<a href="#">查看案例</a>
-						</div>
+		<div class="slide">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-md-12  col-lg-12 textBox fadeInLeft  animated ">
+						<h2>最值得信赖的企业信息化服务专家</h2>
+						<p>一流的技术、全面的解决方案，卓越的信誉助力企业升级成长</p>
+						<a href="#">查看案例</a>
 					</div>
 				</div>
 			</div>
 		</div>
+		
 		<div class="advantage">
-			<div class="center">
-				<div class="container">
-					<div class="row adv_hd animated bounceIn">
-						<h3>为什么选择我们</h3>
-						<span class="sep1"></span>
-					</div>
-					<div class="row adv_bd">
-						<div class="col-xs-12 col-md-3 col-lg-3 adv_item">
+			<div class="container">
+				<div class="row adv_hd">
+					<h3>因为用心，所以放心</h3>
+					<span class="sep1"></span>
+					<p>长沙帕吉网络科技有限公司立足于高端应用软件系统的开发及咨询实施服务，<br />
+面向各行业客户提供IT规划、咨询、实施、开发、运维、NC二次开发等服务，提供贯穿客户信息化全过程的专业服务。<br />
+经过多年的发展，打造出一支高素质、高效率、专业的技术团队，为可口可乐、碧桂园等上百家大型企业提供了专业、可靠的技术支持与服务，赢得了广大客户和合作伙伴高度认可。</p>
+				</div>
+				<div class="row adv_bd">
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="adv_item wow animated fadeInLeft" style="animation-delay: 0.2s;">
+							<img src="img/projects.png" alt="方案合理" />
 							<h4>方案合理</h4>
-							<span class="sep2"></span>
 							<p>以数百家成功案例经验，量身定制最合理的开发方案</p>
 						</div>
-						<div class="col-xs-12 col-md-3 col-lg-3 adv_item">
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="adv_item  wow animated fadeInLeft">
+							<img src="img/quality.png" alt="质量可靠" />
 							<h4>质量可靠</h4>
-							<span class="sep2"></span>
 							<p>遵照全球公认的CMMI3及ISO体系，精细打磨产品的每一个细节</p>
 						</div>
-						<div class="col-xs-12 col-md-3 col-lg-3 adv_item">
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="adv_item wow animated fadeInRight">
+							<img src="img/intime.png" alt="交付准时" />
 							<h4>交付准时</h4>
-							<span class="sep2"></span>
 							<p>近十年的开发经验，专业的开发团队，精准把控整个开发流程</p>
 						</div>
-						<div class="col-xs-12 col-md-3 col-lg-3 adv_item">
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="adv_item wow animated fadeInRight" style="animation-delay: 0.2s;">
+							<img src="img/service.png" alt="贴心服务" />
 							<h4>贴心服务</h4>
-							<span class="sep2"></span>
 							<p>全民服务理念，打造360度服务体系</p>
 						</div>
 					</div>
+					
 				</div>
-			</div>
-		</div>	
-		
-		<div class="products">
-			<div class="center">
-				<div class="container">
-					<div class="row prod_hd animated bounceIn">
-						<h3>我们的产品</h3>
-						<span class="sep1"></span>
-					</div>
-					<div class="row prod_bd">
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item animated fadeInDown ">
-							<img src="img/products_yongyou.jpg" alt="用友ERP" />
-						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item  animated fadeInRight">
-							<h3>企业ERP管理系统</h3>
-							<dl>
-								<dd>面向大、中型企业的ERP管理与电子商务平台 </dd>
-								<dd><br /></dd>
-								<dd>涵盖集团管控、全渠道营销、移动应用、商业分析、云应用、人力资本管理等领域</dd>
-								<dd><br /></dd>
-								<dd>适应于房地产、制造、建筑、交通、消费品、公共事业等行业</dd>
-							</dl>
-							<a href="#">查看详情</a>
-						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item animated fadeInLeft">
-							<h3>企业ERP定制化解决方案</h3>
-							<dl>
-								<dd>量身定制，个性化开发，企业专属的ERP系统 </dd>
-								<dd><br /></dd>
-								<dd>涵盖集团管控、采购、销售、供应链、人力资源、财务等全业务流程</dd>
-								<dd><br /></dd>
-								<dd>适应于房地产、航空、食品、消费品行业</dd>
-							</dl>
-							<a href="#">查看详情</a>
-						</div>
-						<div class="col-xs-12 col-md-6 col-lg-6 prod_item  animated fadeInUp">
-							<img src="img/products_pudge.jpg" alt="用友ERP" />
-						</div>
-					</div>
+				<div class="row adv_hd">
+					<h3>技术优势，为您打造专属产品</h3>
+					<span class="sep1"></span>
+					<p>我们为您提供面向大、中型企业的ERP管理与电子商务平台，亦可量身定制，个性化开发，企业专属的ERP系统</p>
 				</div>
 			</div>
 		</div>
+		</div>	
+		
+		<div class="products">
+				<div class="container">
+					<div class="row prod_bd">
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item wow animated fadeInDown ">
+							<a href="#"><img src="img/products_yongyou.jpg" alt="用友ERP" class="img-responsive center-block"/></a>
+						</div>
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item wow animated fadeInRight">
+							<h3 class=" wow animated fadeInRight" ><a href="#" class="prodTitle">企业ERP管理系统</a></h3>
+							<dl>
+								<dd class=" wow animated fadeInRight" style="animation-delay: 0.3s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;面向大、中型企业的ERP管理与电子商务平台 </dd>
+								<dd><br /></dd>
+								<dd  class=" wow animated fadeInRight" style="animation-delay: 0.6s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;涵盖集团管控、全渠道营销、移动应用、商业分析、云应用、人力资本管理等领域</dd>
+								<dd><br /></dd>
+								<dd  class=" wow animated fadeInRight" style="animation-delay: 0.9s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;适应于房地产、制造、建筑、交通、消费品、公共事业等行业</dd>
+								<dd><br /></dd>
+								<dd><a href="#" class="detailsBtn wow animated bounceIn" style="animation-delay: 2s;">查看详情</a></dd>
+							</dl>
+						</div>
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item wow animated fadeInLeft">
+							<h3 class=" wow animated fadeInLeft"><a href="#" class="prodTitle">企业ERP定制化解决方案</a></h3>
+							<dl>
+								<dd class=" wow animated fadeInRight" style="animation-delay: 0.3s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;面向大、中型企业的ERP管理与电子商务平台 </dd>
+								<dd><br /></dd>
+								<dd  class=" wow animated fadeInRight" style="animation-delay: 0.6s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;涵盖集团管控、全渠道营销、移动应用、商业分析、云应用、人力资本管理等领域</dd>
+								<dd><br /></dd>
+								<dd  class=" wow animated fadeInRight" style="animation-delay: 0.9s;"><img src="img/check.png" class="check"/>&nbsp;&nbsp;&nbsp;适应于房地产、制造、建筑、交通、消费品、公共事业等行业</dd>
+								<dd><br /></dd>
+								<dd><a href="#" class="detailsBtn wow animated bounceIn" style="animation-delay: 2s;">查看详情</a></dd>
+							</dl>
+						</div>
+						<div class="col-xs-12 col-md-6 col-lg-6 prod_item wow animated fadeInUp">
+							<a href="#"><img src="img/products_pudge.jpg" alt="用友ERP" class="img-responsive center-block"/></a>
+						</div>
+					</div>
+				</div>
+		</div>
 		<div class="service">
-			<div class="center">
 				<div class="container">
 					<div class="row service_hd">
 						<h3>我们的服务</h3>
@@ -264,32 +268,32 @@
 						<div class="col-xs-12 col-md-12 col-lg-12 subTitle">
 							<p>用友软件实施与运维</p>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInLeft">
 							<h4><a href="#">ERP企业资源管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInLeft">
 							<h4><a href="#">HR人力资源管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInLeft">
 							<h4><a href="#">SCM软件配置管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInRight">
 							<h4><a href="#">CRM客户关系管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInRight">
 							<h4><a href="#">OA企业办公管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item animated fadeInRight">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item wow animated fadeInRight">
 							<h4><a href="#">EAM企业资产管理系统</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
@@ -299,32 +303,30 @@
 						<div class="col-xs-12 col-md-12 col-lg-12 subTitle2">
 							<p>IT人力外包输出</p>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 wow animated fadeInLeft">
 							<h4><a href="#">售前支持</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 wow animated fadeInLeft">
 							<h4><a href="#">人才租赁</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInLeft">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 wow animated fadeInLeft">
 							<h4><a href="#">项目整包</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
-						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 animated fadeInRight">
+						<div class="col-xs-12 col-md-4 col-lg-4 ser_item2 wow animated fadeInRight">
 							<h4><a href="#">IT咨询</a></h4>
 							<p>ERP软件实施与运维服务详情简,ERP软件实施与运维,ERP软件实施与运维服务...</p>
 							<a href="#">了解详情</a><span class="glyphicon glyphicon-send"></span>
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 		<div class="projects">	
-			<div class="center">
 				<div class="container">
 					<div class="row projects_hd animated bounceIn">
 						<h3>成功案例</h3>
@@ -332,7 +334,7 @@
 					</div>
 					<div class="row projects_bd">
 						<div class="col-sm-12 col-md-3 col-lg-3 ">
-							<div class="projects_item">
+							<div class="projects_item wow animated fadeInLeft" style="animation-delay: 0.2s;">
 								<a href="#">
 								<img src="img/projects1.jpg" alt="coca cola" />
 								<p>可口可乐</p>
@@ -340,7 +342,7 @@
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-3 col-lg-3">
-							<div class="projects_item">
+							<div class="projects_item wow animated fadeInLeft">
 								<a href="#">
 								<img src="img/projects2.jpg" alt="碧桂园" />
 								<p>碧桂园</p>
@@ -348,7 +350,7 @@
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-3 col-lg-3">
-							<div class="projects_item">
+							<div class="projects_item wow animated fadeInRight">
 								<a href="#">
 								<img src="img/projects3.jpg" alt="中山国资委" />
 								<p>中山国资委</p>
@@ -356,7 +358,7 @@
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-3 col-lg-3">
-							<div class="projects_item">
+							<div class="projects_item wow animated fadeInRight" style="animation-delay: 0.2s;">
 								<a href="#">
 								<img src="img/projects4.jpg" alt="中国燃气" />
 								<p>中国燃气</p>
@@ -364,20 +366,21 @@
 							</div>
 						</div>
 					</div>
+					<div class="row">
+						<a href="#" class="more col-sm-12 col-md-12 col-lg-12">查看更多案例</a>
+					</div>
 				</div>
-			</div>
 		</div>
 
 		<!-- 底部 -->
 		<footer>
 		<div class="footer1">
-			<div class="center">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 col-md-4 col-lg-4">
 							<div class="loveBox">
 								<img src="img/love.png" alt="PUDGE" />
-								<p>专注软件运维10年</p>
+								<p>专注软件开发10年</p>
 								<p>服务客户100+</p>
 							</div>
 						</div>
@@ -386,6 +389,66 @@
 							<p class="subSlogan">10年专注企业客户信息化，助力企业发展与变革</p>
 							<button><img src="img/phone.png" alt="联系我们" />0731－85537586</button>
 						</div>
+					</div>
+				</div>
+		</div>
+		
+		
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-3 col-lg-3 ">
+						<div class="footerInfo_hd firstHd">
+							联系我们
+						</div>
+						<div class="footerInfo_bd first">
+							<strong>0731－85537586<br/>85537286</strong>
+							<p>长沙帕吉网络科技有限公司<br />中国·湖南·长沙·岳麓区麓谷新长海中心B1栋501</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="footerInfo_hd">
+							产品
+						</div>
+						<div class="footerInfo_bd">
+							<ul>
+								<li><a href="#">企业ERP管理系统</a></li>
+								<li><a href="#">企业ERP定制化解决方案</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="footerInfo_hd">
+							用友软件实施服务
+						</div>
+						<div class="footerInfo_bd ">
+							<ul>
+								<li><a href="#">ERP企业资源管理系统</a></li>
+								<li><a href="#">HR人力资源管理系统</a></li>
+								<li><a href="#">SCM软件配置管理系统</a></li>
+								<li><a href="#">CRM客户关系管理系统</a></li>
+								<li><a href="#">OA企业办公管理系统</a></li>
+								<li><a href="#">EAM企业资产管理系统</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 col-lg-3">
+						<div class="footerInfo_hd">
+							IT人员外包输出
+						</div>
+						<div class="footerInfo_bd">
+							<ul>
+								<li><a href="#">售前支持</a></li>
+								<li><a href="#">人才租赁</a></li>
+								<li><a href="#">项目整包</a></li>
+								<li><a href="#">IT咨询</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12 siteInfo">
+						<p>版权所有 ©2015 长沙帕吉网络科技有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湘ICP备15014424号-1 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;湘公网安备15014424号</p>
 					</div>
 				</div>
 			</div>
@@ -399,7 +462,11 @@
 		<script src="js/move.js"></script>
 		<!--<script src="js/carousel.js"></script>-->
 		<!--<script src="js/common.js"></script>-->
+		<script src="js/wow.js"></script>
 		<script type="text/javascript" src="js/index.js"></script>
+		<script>
+            new WOW().init();
+        </script>
 	</body>
 
 </html>

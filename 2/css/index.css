@@ -422,7 +422,10 @@ ul.dropdown-menu.normal_menu>li>a:hover {
 	font: 18px/18px "微软雅黑";
 	text-align: left;
 }
-.footer2 .footerInfo_bd {
+.footer2 .container .firstHd {
+	text-align: center;
+}
+.footer2 .footerInfo_bd.first {
 	text-align: center;
 }
 .footer2 .footerInfo_bd strong {
@@ -430,11 +433,32 @@ ul.dropdown-menu.normal_menu>li>a:hover {
 	margin: 20px 0;
 	font: 18px/24px "微软雅黑";
 }
-
-
-
-
-
-
-
-
+.footer2 .footerInfo_bd {
+	text-align: left;
+}
+.footer2 .footerInfo_bd ul {
+	list-style: none;
+	padding-left: 0;
+}
+.footer2 .footerInfo_bd ul li {
+	margin-bottom: 10px;
+}
+.footer2 .footerInfo_bd ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer2 .footerInfo_bd ul li a:hover {
+	color: #0277bd;
+}
+.footer2 .siteInfo {
+	margin: 20px;
+	border-top: 1px solid #545252;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+.footer2 .siteInfo p {
+	font: 14px/14px "微软雅黑";
+	color: #545252;
+	margin-bottom: 0;
+	
+}
