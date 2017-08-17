@@ -1,0 +1,46 @@
+.paper .growBox {
+	margin-top: 15px;
+    font-size: 14px;
+    color: #111;
+}
+.paper .growBox .eventList {
+    background: url(../img/dian3.png) 100px 0 repeat-y;
+    list-style: none;
+    margin: 10px 0 20px 0;
+    padding: 20px 20px 20px 0;
+    
+}
+.paper .growBox .eventList h4 {
+	margin: 0 0 10px 93px;
+    font-size: 24px;
+    font-family: Georgia;
+    color: #ee7400;
+    padding-left: 25px;
+    background: url(../img/jian.png) 0 -45px no-repeat;
+    height: 38px;
+    line-height: 30px;
+    font-style: italic;
+}
+.paper .growBox .eventList li {
+	background: url(../img/jian.png) 97px -86px no-repeat;
+	width: 100%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.paper .growBox .eventList li>span {
+	width: 70px;
+    text-align: right;
+    float: left;
+    margin-top: 5px;
+}
+.paper .growBox .eventList li>p {
+	color: #666;
+	font-size: 14px;
+    position: relative;
+    padding: 0 10px 0 60px;
+    float: right;
+    width: 80%;
+    margin: 0;
+    /*background: #FFFFFF;*/
+   text-indent: 0;
+}

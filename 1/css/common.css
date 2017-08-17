@@ -1,0 +1,239 @@
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-brand {
+	padding: 5px 10px;
+	height: 70px
+}
+.navbar-toggle {
+	margin-top: 17px;
+}
+.navbar-default {
+	background: #FFFFFF;
+	border: none;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .28);
+}
+.navbar-nav > li > a {
+	line-height: 40px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a.active {
+	color: #eb943c;
+}
+
+.navbar-right .dropdown-menu.features_menu {
+	min-width: 400px;
+}
+.navbar-right .dropdown-menu.features_menu h4 {
+	color: #eb943c;
+	padding-left: 10px;
+}
+.navbar-right .features_menu > li > ul {
+	list-style: none;
+	padding-left: 10px;
+	margin: 10px 0;
+}
+.navbar-right .features_menu > li > ul > li a {
+	display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.navbar-right .features_menu > li > ul > li a:hover {
+	color: #eb943c;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+.dropdown-menu > li > a:hover {
+	color: #eb943c;
+}
+
+/*footer1*/
+.footer1 {
+	margin-top: 40px;
+	padding: 80px 0;
+	background: #262626 url(../img/footer1.png) no-repeat center center;
+	background-size: cover;
+}
+.footer1 .loveBox {
+	width: 100%;
+	background: #FFFFFF;
+	border-radius: 4px;
+	text-align: center;
+	padding: 40px 10px
+}
+.footer1 .loveBox p {
+	font: 28px/28px "微软雅黑";
+	margin-top: 20px;
+}
+.footer1 .sloganBox p {
+	font: 36px/36px "微软雅黑";
+	margin: 20px 0 20px 0;
+	color: #FFFFFF;
+}
+.footer1 .sloganBox p.subSlogan {
+	font: 28px/28px "微软雅黑";
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+.footer1 .sloganBox button {
+	margin-top: 30px;
+	background: #f99d40;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	height: 40px;
+}
+.footer1 .sloganBox button:hover {
+	background: #eb943c;
+}
+
+.footer2 {
+	background: #333333;
+	color: #FFFFFF;
+}
+.footer2 .footerInfo_hd {
+	margin: 40px 0 20px 0;
+	font: 18px/18px "微软雅黑";
+	text-align: left;
+	color: #f99d40;
+}
+.footer2 .container .firstHd {
+	text-align: left;
+}
+.footer2 .footerInfo_bd.first {
+	text-align: left;
+}
+.footer2 .footerInfo_bd strong {
+	display: inline-block;
+	margin: 20px 0;
+	font: 24px/36px "微软雅黑";
+}
+.footer2 .footerInfo_bd {
+	text-align: left;
+	/*color: #f99d40;*/
+}
+.footer2 .footerInfo_bd ul {
+	margin-top: 10px;
+	list-style: none;
+	padding-left: 0;
+}
+.footer2 .footerInfo_bd ul li {
+	margin-bottom: 10px;
+}
+.footer2 .footerInfo_bd ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font: lighter 14px/14px "微软雅黑";
+}
+.footer2 .footerInfo_bd ul li a.active,
+.footer2 .footerInfo_bd ul li a:hover {
+	color: #f99d40;
+}
+.footer2 .siteInfo {
+	margin: 20px;
+	border-top: 1px solid #545252;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+.footer2 .siteInfo p {
+	font:  14px/14px "微软雅黑";
+	color: #545252;
+	margin-bottom: 0;
+	
+}
+
+
+/*内容页公用样式*/
+.topBanner {
+	height: 240px;
+	background: url(../img/about_banner.jpg) no-repeat center top;
+	color: #FFFFFF;
+}
+.topBanner .banner h3 {
+	font: 46px/60px "微软雅黑";
+	margin-top: 40px;
+}
+.topBanner .banner p {
+	font: 24px/30px "微软雅黑";
+	margin-top: 20px;
+}
+
+.bread {
+	background: #FFFFFF;
+}
+.bread .breadcrumb {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #d6d6d6;
+	border-radius: 0;
+	height: 59px;
+	padding: 20px 15px;
+}
+.bread .breadcrumb li {
+	font: lighter 18px/20px "微软雅黑";
+	color: #333333;
+} 
+.bread .breadcrumb li a {
+	color: #ee7400;
+}
+
+
+.content .asideMenu h4 {
+	color: #333333;
+	font: lighter 24px/46px "微软雅黑";
+}
+.content .asideMenu ul {
+	list-style: none;
+	padding-left: 20px;
+}
+.content .asideMenu ul li {
+	margin: 16px 0;
+}
+.content .asideMenu ul li a {
+	line-height: 24px;
+	font-size: 18px;
+	color: #333333;
+	padding-left: 15px;
+	
+}
+.content .asideMenu ul li a:hover,
+.content .asideMenu ul li a.active {
+	color: #ee7400;
+	border-left: 2px solid #ee7400;
+	text-decoration: none;
+	padding-left: 13px;
+}
+.content .paper h4 {
+	font: lighter 36px/46px "微软雅黑";
+	margin-top: 40px;
+}
+.content .paper h4:first-child {
+	margin-top: 0;
+}
+
+.content .paper p {
+	text-indent: 2em;
+	font: lighter 18px/24px "微软雅黑";
+	color: #555555;
+	margin-top: 24px;
+}
+.content .paper p span {
+	color: #ee7400;
+	font-weight: bold;
+}

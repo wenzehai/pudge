@@ -1,0 +1,52 @@
+.contactCon {
+	margin-top: 60px;
+}
+.mapBox {
+	height: 450px;
+	overflow: hidden;
+	margin:0;
+	font-family:"微软雅黑";
+	border: 1px solid #cecece;
+}
+
+.contactInfo {
+	margin-top: 40px;
+	text-align: center;
+}
+.contactInfo p {
+	font: lighter 14px/28px "微软雅黑";
+	margin-top: 15px;
+}
+
+.Info {
+	margin-top: 40px;
+}
+.Info h4 {
+	font: lighter 30px/36px "微软雅黑";
+}
+.Info form {
+	width: 100%;
+}
+.Info input {
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	height: 40px;
+	border: 1px solid #cecece;
+	outline: none;
+	margin-bottom: 30px;
+}
+.Info textarea {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 30px;
+	border: 1px solid #cecece;
+	outline: none;
+}
+.contactCon .Info input[type="button"] {
+	width: 150px;
+	background: #eb943c;
+	color: #FFFFFF;
+	outline: none;
+	border: none;
+}
