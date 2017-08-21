@@ -1,0 +1,29 @@
+.paper .customerLogo {
+	margin: 40px auto 0 auto;
+	min-height: 70px;
+}
+.paper .customerLogo span {
+	margin-top: 10px;
+	font-size: 18px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+/*.paper .customerLogo:hover span {
+	opacity: 1;
+}
+.paper .customerLogo span {
+	transition: all 0.3s ease-in;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 70px;
+}*/

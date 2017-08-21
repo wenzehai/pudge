@@ -42,6 +42,49 @@
 .slide .textBox a:hover {
 	background: #eb943c;
 }
+/*客户*/
+.customer .customer_hd {
+	text-align: center;
+}
+.customer .customer_hd h3 {
+	font: lighter 36px/36px "微软雅黑";
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.customer .customer_hd span.sep1 {
+	display: block;
+	width: 40px;
+	height: 1px;
+	background: #eb943c;
+	margin: 0 auto 24px auto;
+}
+.customer .customerLogo {
+	margin-top: 40px;
+	min-height: 70px;
+}
+.customer .customerLogo:hover span {
+	opacity: 1;
+}
+.customer .customerLogo span {
+	transition: all 0.3s ease-in;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 70px;
+}
+
+
+
+
+
 
 /*优势*/
 .advantage {
