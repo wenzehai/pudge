@@ -5,16 +5,10 @@
 /*中间文字*/
 .slide{
 	background: url(../img/headerwrap.jpg) no-repeat center center;
-	/*margin-top: 70px;*/
 	min-height: 800px;
 }
-/*.slide > div > div {
-	position: relative;
-}*/
 .slide .textBox {
-	position: absolute;
-	top: 50%;
-	margin-top: -150px;
+	margin-top: 300px;
 }
 .slide .textBox h2 {
 	padding-left: 50px;
