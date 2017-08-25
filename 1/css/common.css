@@ -1,4 +1,6 @@
-
+body {
+	font-family: "微软雅黑", "microsoft yahei", arial;
+}
 
 .clearfix:after {
 	content: "";
@@ -23,16 +25,23 @@
 .navbar-default {
 	background: #FFFFFF;
 	border: none;
-	box-shadow: 0 3px 5px rgba(0, 0, 0, .28);
+	box-shadow: 0 3px 5px rgba(150, 150, 150, .20);
+}
+.navbar .navbar-nav .dropdown:hover .dropdown-menu {
+	display: block;
 }
 .navbar-nav > li > a {
 	line-height: 40px;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a.active {
+.navbar-default .navbar-nav > li > a:hover {
 	color: #eb943c;
 }
-
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  	color: #eb943c;
+  	background: #FFFFFF;
+}
 .navbar-right .dropdown-menu.features_menu {
 	min-width: 400px;
 }
@@ -63,9 +72,38 @@
 	color: #eb943c;
 }
 
+aside {
+	display: none;
+	position: fixed;
+	right: 0;
+	bottom: 20px;
+	transition: all 1s ease-in;
+	z-index: 100;
+}
+aside .asideBox {
+	background: #FFFFFF;
+	width: 70px;
+	height: 90px;
+	border: 1px solid #dcdcdc;
+	border-right: none;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+aside .asideBox a {
+	padding-top: 60px;
+	display: inline-block;
+	text-decoration: none;
+	color: #666666;
+	background: url(../img/backtop.png) no-repeat center 15px;
+}
+aside .asideBox a:hover {
+	color: #eb943c;
+	background: url(../img/backtop_pre.png) no-repeat center 15px;
+}
 /*footer1*/
 .footer1 {
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	padding: 80px 0;
 	background: #262626 url(../img/footer1.png) no-repeat center center;
 	background-size: cover;
@@ -162,10 +200,31 @@
 
 /*内容页公用样式*/
 .topBanner {
+	margin-top: 70px;
 	height: 240px;
-	background: url(../img/about_banner.jpg) no-repeat center top;
 	color: #FFFFFF;
 }
+.companyProfiles {
+	background: url(../img/about_banner.jpg) no-repeat center top;
+}
+.contactUs {
+	background: url(../img/contactUs_bg.jpg) no-repeat center top;
+}
+.case {
+	background: url(../img/contactUs_bg.jpg) no-repeat center top;
+}
+.customerService {
+	background: url(../img/customerService_bg.jpg) no-repeat center top;
+}
+.companyProducts {
+	background: url(../img/companyProducts_bg.jpg) no-repeat center top;
+}
+
+
+
+
+
+
 .topBanner .banner h3 {
 	font: 46px/60px "微软雅黑";
 	margin-top: 40px;
@@ -178,12 +237,18 @@
 .bread {
 	background: #FFFFFF;
 }
+
 .bread .breadcrumb {
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #d6d6d6;
 	border-radius: 0;
 	height: 59px;
 	padding: 20px 15px;
+}
+.bread .breadcrumbActive {
+	position: fixed;
+	top: 70px;
+	z-index: 1000;
 }
 .bread .breadcrumb li {
 	font: lighter 18px/20px "微软雅黑";
@@ -192,8 +257,13 @@
 .bread .breadcrumb li a {
 	color: #ee7400;
 }
-
-
+.content .asideMenu {
+	position: relative;
+}
+.content .asideActive {
+	position: fixed;
+	top: 70px;
+}
 .content .asideMenu h4 {
 	color: #333333;
 	font: lighter 24px/46px "微软雅黑";
@@ -219,6 +289,13 @@
 	text-decoration: none;
 	padding-left: 13px;
 }
+.content .paper {
+	background: #FFFFFF;
+	padding-bottom: 200px;
+}
+.content .paperActive {
+	/*margin-top: 70px;*/
+}
 .content .paper h4 {
 	font: lighter 36px/46px "微软雅黑";
 	margin-top: 40px;
@@ -226,7 +303,6 @@
 .content .paper h4:first-child {
 	margin-top: 0;
 }
-
 .content .paper p {
 	text-indent: 2em;
 	font: lighter 18px/24px "微软雅黑";
