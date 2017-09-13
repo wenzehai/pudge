@@ -313,3 +313,26 @@ aside .asideBox a:hover {
 	color: #ee7400;
 	font-weight: bold;
 }
+.content .paper dt {
+	font: lighter 24px/24px "微软雅黑";
+	margin-top: 24px;
+}
+
+.content .paper dd {
+	font: lighter 18px/24px "微软雅黑";
+	/*text-indent: 2em;*/  
+	margin-top: 24px;
+	padding-left: 35px;
+	background: url(../img/check_small.png) no-repeat left 0;
+}
+.content .paper dd.level3 p {
+	font: lighter 16px/24px "微软雅黑";
+	padding-left: 20px;
+	text-indent: 0;
+	background: url(../img/dot3.png) no-repeat left 5px;
+}
+.content .paper dd.level3 {
+	font: lighter 16px/24px "微软雅黑";
+	margin-top: 24px;
+	background: rgba(255,255,255,0);
+}
