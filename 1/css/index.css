@@ -11,10 +11,8 @@
 .slide .textBox {
 	margin-top: 300px;
 }
-.slide .textBox h2 {
+.slide .textBox h1 {
 	padding-left: 50px;
-	font-size: 46px;
-	line-height: 72px;
 	font-weight: lighter;
 }
 .slide .textBox p {
@@ -27,10 +25,10 @@
 	display: inline-block;
 	margin-top: 14px;
 	background: #fa9f44;
-	font-size: 18px;
+	font-size: 16px;
 	color: #FFFFFF;
 	text-align: center;
-	line-height: 44px;
+	line-height:38px;
 	padding: 0 15px;
 	text-decoration: none;
 }
@@ -38,12 +36,16 @@
 	background: #eb943c;
 }
 /*客户*/
+.customer  {
+	padding-top: 40px;
+	margin-bottom: 60px;
+}
 .customer .customer_hd {
 	text-align: center;
 }
 .customer .customer_hd h3 {
 	font: lighter 36px/36px "微软雅黑";
-	margin-top: 40px;
+	/*margin-top: 40px;*/
 	margin-bottom: 20px;
 }
 .customer .customer_hd span.sep1 {
@@ -52,6 +54,10 @@
 	height: 1px;
 	background: #eb943c;
 	margin: 0 auto 24px auto;
+}
+.customer .customer_hd p {
+	color: #666;
+	font-weight: lighter;
 }
 .customer .customerLogo {
 	margin-top: 40px;
@@ -73,8 +79,8 @@
 /*优势*/
 .advantage {
 	padding-top: 40px;
-	background: #FFFFFF;
-	padding-bottom: 60px;
+	background: #F5F5F5;
+	/*padding-bottom: 60px;*/
 }
 .advantage .adv_hd {
 	margin-bottom: 20px;
@@ -92,11 +98,17 @@
 	background: #eb943c;
 	margin: 0 auto 24px auto;
 }
+.advantage .adv_hd p {
+	color: #666;
+	font-weight: lighter;
+}
 .advantage .adv_bd {
 	margin-bottom: 80px;
 }
 .advantage .adv_hd p {
-	font: lighter 14px/20px "微软雅黑";
+	/*font: lighter 14px/20px "微软雅黑";*/
+	color: #666;
+	
 }
 .advantage .adv_bd .adv_item {
 	margin-top: 40px;
@@ -125,10 +137,27 @@
 /*我们的产品*/
 .products {
 	width: 100%;
-	background: #f2f2f2;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 .products .prod_hd {
-	margin: 40px auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.products .prod_hd h3 {
+	font: lighter 36px/36px "微软雅黑";
+	margin-bottom: 20px;
+}
+.products .prod_hd span.sep1 {
+	display: block;
+	width: 40px;
+	height: 1px;
+	background: #eb943c;
+	margin: 0 auto 24px auto;
+}
+.products .prod_hd p {
+	color: #666;
+	font-weight: lighter;
 }
 .products .prod_bd a.prodTitle {
 	text-decoration: none;
@@ -154,58 +183,74 @@
 	transform: translateY(10px);
 }
 .products .prod_bd h3 {
-	font-size: 30px;
+	/*font-size: 30px;
 	line-height: 36px;
 	font-weight: lighter;
-	margin: 0;
+	margin: 0;*/
+	margin-top: 0;
+	padding: 5px 0;
+	border-bottom: 1px solid #eb943c;
 }
 .products .prod_bd dl {
-	margin-top: 30px;
-	margin-left: 50px;
+	margin-top: 15px;
+	/*margin-left: 50px;*/
 }
 .products .prod_bd .check {
 	margin-left: -50px;
 }
 .products .prod_bd dl dd {
-	font: lighter 14px/20px "微软雅黑";
+	background: url(../img/icon_arrowrightup1.png) no-repeat left 3px;
+	padding-left: 38px;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 1.428;
+	margin-bottom: 12px;
 }
 .products .prod_bd a.detailsBtn {
 	display: inline-block;
-	background: #fa9f44;
-	font-size: 18px;
-	color: #FFFFFF;
-	text-align: center;
-	line-height: 44px;
-	padding: 0 15px;
-	text-decoration: none;
+	/*background: #fa9f44;*/
+	font-size: 16px;
+	color: #fa9f44;
+	font-weight: lighter;
+	/*text-decoration: underline;*/
+	/*text-align: center;*/
+	/*line-height: 38px;*/
+	line-height: 1.428;
+	/*padding: 3px 0;*/
+	/*text-decoration: none;*/
+	margin-top: 40px;
 }
 .products .prod_bd a:hover {
-	background: #eb943c;
+	/*background: #eb943c;*/
 }
 
 /*客户服务*/
 .service {
-	background: #FFFFFF;
+	background: #F5F5F5;
+	padding-top: 40px;
 }
 .service .service_hd {
-	margin: 40px auto;
+	margin-bottom: 40px;
+	text-align: center;
 }
-.service .service_hd h3{
+.service .service_hd h2{
 	text-align: center;	
-	font-size: 30px;
+	/*font-size: 30px;*/
 	font-weight: lighter;
 }
 .service .service_hd span.sep1{
 	display: block;
-	width: 120px;
-	height: 2px;
+	width: 40px;
+	height: 1px;
 	background: #eb943c;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 0 auto 24px auto;
+}
+.service .service_hd p {
+	color: #666;
+	font-weight: lighter;
 }
 .service .service_bd {
-	margin-bottom: 40px;
+	/*margin-bottom: 40px;*/
 }
 .service .service_bd .ser_item {
 	margin-top: 25px;
@@ -227,18 +272,18 @@
 	border-left: 2px solid #eb943c;
 	color: #eb943c;
 }  
-.service .service_bd .ser_item:hover h4 a {
+.service .service_bd .ser_item:hover h3 a {
 	color: #e60012;
 }
 .service .service_bd .ser_item:hover span {
 	display: inline-block;
 }
 
-.service .service_bd .ser_item h4 {
-	padding-left: 70px;
+.service .service_bd .ser_item h3 {
+	/*padding-left: 70px;*/
 	
-	font: 24px/64px "微软雅黑";
-	line-height: 64px;
+	/*font: 24px/64px "微软雅黑";*/
+	/*line-height: 64px;*/
 	transition: all 0.2s ease-in;
 	border-bottom: 1px solid #e60012;
 }
@@ -262,44 +307,7 @@
 	padding-left: 10px;
 	transition: all 0.2s ease-in;
 }
-.service .service_bd div.ser_item:nth-child(2) h4 {
-	background: url(../img/erp.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(2):hover h4 {
-	background: url(../img/erp_pre.png) no-repeat 0 6px;
-}
 
-.service .service_bd div.ser_item:nth-child(3) h4 {
-	background: url(../img/hr.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(3):hover h4 {
-	background: url(../img/hr_pre.png) no-repeat 0 6px;
-}
-
-.service .service_bd div.ser_item:nth-child(4) h4 {
-	background: url(../img/scm.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(4):hover h4 {
-	background: url(../img/scm_pre.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(5) h4 {
-	background: url(../img/crm.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(5):hover h4 {
-	background: url(../img/crm_pre.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(6) h4 {
-	background: url(../img/oa.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(6):hover h4 {
-	background: url(../img/oa_pre.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(7) h4 {
-	background: url(../img/eam.png) no-repeat 0 6px;
-}
-.service .service_bd div.ser_item:nth-child(7):hover h4 {
-	background: url(../img/eam_pre.png) no-repeat 0 6px;
-}
 
 .service .service_bd .ser_item2 {
 	margin-top: 25px;
@@ -311,19 +319,20 @@
 	line-height: 30px;
 	color: #e60012;
 }  
-.service .service_bd .ser_item2:hover h4 a {
+.service .service_bd .ser_item2:hover h3 a {
 	color: #eb943c;
 }
 .service .service_bd .ser_item2:hover span {
 	display: inline-block;
 }
-
-.service .service_bd .ser_item2 h4 {
-	padding-left: 70px;
-	
-	font: 24px/64px "微软雅黑";
-	line-height: 64px;
+.service .service_bd .icon1 {
+	width: 50px;
+	border-radius: 50%;
+	background: #0277BD;
+	}
+.service .service_bd .ser_item2 h3 {
 	transition: all 0.2s ease-in;
+	margin-top: 10px;
 	border-bottom: 1px solid #eb943c;
 }
 .service .service_bd .ser_item2 p {
@@ -332,7 +341,6 @@
 	margin: 15px 0 25px 0;
 }
 .service .service_bd .ser_item2 a {
-	/*text-decoration: none;*/
 	color: #333;
 	padding-top: 15px;
 	transition: all 0.2s ease-in;
@@ -346,54 +354,44 @@
 	padding-left: 10px;
 	transition: all 0.2s ease-in;
 }
-.service .service_bd div.ser_item2:nth-child(2) h4 {
-	background: url(../img/shouqian.png) no-repeat 0 0;
+.service_bd dt {
+	margin: 0  0 10px 0;
+	font-size: 26px;	
+	line-height: 1.428;
+	font-weight: lighter;
+	color: #333333;
+	/*border-bottom: 1px solid #e30011;*/
 }
-.service .service_bd div.ser_item2:nth-child(2):hover h4 {
-	background: url(../img/shouqian_pre.png) no-repeat 0 0;
-}
-
-.service .service_bd div.ser_item2:nth-child(3) h4 {
-	background: url(../img/people.png) no-repeat 0 0;
-}
-.service .service_bd div.ser_item2:nth-child(3):hover h4 {
-	background: url(../img/people_pre.png) no-repeat 0 0;
-}
-
-.service .service_bd div.ser_item2:nth-child(4) h4 {
-	background: url(../img/projects1.png) no-repeat 0 0;
-}
-.service .service_bd div.ser_item2:nth-child(4):hover h4 {
-	background: url(../img/projects1_pre.png) no-repeat 0 0;
+.service_bd dd {
+	font-size: 16px;	
+	line-height: 1.428;
+	font-weight: lighter;
+	color: #333333;
+	margin-bottom: 70px;
 }
 
-.service .service_bd div.ser_item2:nth-child(5) h4 {
-	background: url(../img/shouhou.png) no-repeat 0 0;
-}
-.service .service_bd div.ser_item2:nth-child(5):hover h4 {
-	background: url(../img/shouhou_pre.png) no-repeat 0 0;
-}
+
 
 /*成功案例*/
 .projects {
-	background: #f2f2f2;
+	background: #FFFFFF;
+	padding-top: 40px;
 }
-.projects .projects_hd {
-	margin: 40px auto 0 auto;
-}
-.projects .projects_hd h3{
+.projects .projects_hd h2{
 	text-align: center;	
-	font-size: 30px;
+	/*font-size: 30px;*/
 	font-weight: lighter;
 }
 .projects .projects_hd span.sep1{
 	display: block;
-	width: 120px;
-	height: 2px;
+	width: 40px;
+	height: 1px;
 	background: #eb943c;
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	margin: 0 auto 24px auto;
+}
+.projects .projects_hd p {
+	color: #666;
+	font-weight: lighter;
 }
 .projects .projects_bd {
 	margin-bottom: 80px;
@@ -418,7 +416,7 @@
 	bottom: 0;
 	background: rgba(0,0,0,0.5);
 	line-height: 80px;	
-	font-size: 30px;
+	font-size: 20px;
 	color: #FFFFFF;
 	text-align: center;
 	width: 100%;
@@ -430,8 +428,9 @@
 	margin: 20px 0 60px 0;
 }
 .projects .more a {
-	text-decoration: none;
-	font: 18px/18px "微软雅黑";
+	/*text-decoration: none;*/
+	font-size: 16px;
+	line-height: 1.428;
 	color: #eb943c;
 }
 

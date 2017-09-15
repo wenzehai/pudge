@@ -1,7 +1,34 @@
 body {
 	font-family: "微软雅黑", "microsoft yahei", arial;
+	font-size: 16px;
+	line-height: 1.428;
+	color: #333;
 }
-
+h1 {
+	font-size: 46px;
+	line-height: 1.428;
+	font-weight: lighter;
+}
+h2 {
+	font-size: 36px;
+	line-height: 1.428;
+	font-weight: lighter;
+}
+h3 {
+	font-size: 26px;
+	line-height: 1.428;
+	font-weight: lighter;
+}
+h4 {
+	font-size: 18px;
+	line-height: 1.428;
+	font-weight: lighter;
+}
+h5 {
+	font-size: 14px;
+	line-height: 1.428;
+	font-weight: lighter;
+}
 .clearfix:after {
 	content: "";
 	display: block;
@@ -31,10 +58,21 @@ body {
 	display: block;
 }
 .navbar-nav > li > a {
+	font-size: 18px;
 	line-height: 40px;
+}
+.nav > li > a {
+	padding-left: 25px;
+	padding-right: 25px;
+	
+}
+.navbar-default .navbar-nav > li > a {
+	color: #222222;
+	
 }
 .navbar-default .navbar-nav > li > a:hover {
 	color: #eb943c;
+	background: #eee;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -56,7 +94,7 @@ body {
 }
 .navbar-right .features_menu > li > ul > li a {
 	display: block;
-    padding: 3px 20px;
+    padding: 8px 20px;
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
@@ -71,7 +109,12 @@ body {
 .dropdown-menu > li > a:hover {
 	color: #eb943c;
 }
-
+.dropdown-menu > li > a {
+	padding: 8px 20px;
+}
+.dropdown-menu {
+	font-size: 16px;
+}
 aside {
 	display: none;
 	position: fixed;
@@ -220,24 +263,18 @@ aside .asideBox a:hover {
 	background: url(../img/companyProducts_bg.jpg) no-repeat center top;
 }
 
-
-
-
-
-
-.topBanner .banner h3 {
-	font: 46px/60px "微软雅黑";
+.topBanner .banner h1 {
+	/*font: 46px/60px "微软雅黑";*/
 	margin-top: 40px;
 }
 .topBanner .banner p {
-	font: 24px/30px "微软雅黑";
+	/*font: 24px/30px "微软雅黑";*/
 	margin-top: 20px;
 }
 
 .bread {
 	background: #FFFFFF;
 }
-
 .bread .breadcrumb {
 	background-color: #FFFFFF;
 	border-bottom: 1px solid #d6d6d6;
@@ -251,7 +288,9 @@ aside .asideBox a:hover {
 	z-index: 1000;
 }
 .bread .breadcrumb li {
-	font: lighter 18px/20px "微软雅黑";
+	/*font: lighter 18px/20px "微软雅黑";*/
+	font-size: 16px;
+	
 	color: #333333;
 } 
 .bread .breadcrumb li a {
@@ -264,9 +303,9 @@ aside .asideBox a:hover {
 	position: fixed;
 	top: 70px;
 }
-.content .asideMenu h4 {
+.content .asideMenu h3 {
 	color: #333333;
-	font: lighter 24px/46px "微软雅黑";
+	/*font: lighter 24px/46px "微软雅黑";*/
 }
 .content .asideMenu ul {
 	list-style: none;
@@ -276,8 +315,9 @@ aside .asideBox a:hover {
 	margin: 16px 0;
 }
 .content .asideMenu ul li a {
-	line-height: 24px;
-	font-size: 18px;
+	/*line-height: 24px;*/
+	line-height: 1.428;
+	font-size: 16px;
 	color: #333333;
 	padding-left: 15px;
 	
@@ -297,7 +337,7 @@ aside .asideBox a:hover {
 	/*margin-top: 70px;*/
 }
 .content .paper h4 {
-	font: lighter 36px/46px "微软雅黑";
+	/*font: lighter 36px/46px "微软雅黑";*/
 	margin-top: 40px;
 }
 .content .paper h4:first-child {
@@ -305,8 +345,10 @@ aside .asideBox a:hover {
 }
 .content .paper p {
 	text-indent: 2em;
-	font: lighter 18px/24px "微软雅黑";
-	color: #555555;
+	/*font: lighter 18px/24px "微软雅黑";*/
+	font-size: 16px;
+	line-height: 1.428;
+	color: #666;
 	margin-top: 24px;
 }
 .content .paper p span {
@@ -316,23 +358,37 @@ aside .asideBox a:hover {
 .content .paper dt {
 	font: lighter 24px/24px "微软雅黑";
 	margin-top: 24px;
+	color: #666666;
 }
 
 .content .paper dd {
-	font: lighter 18px/24px "微软雅黑";
-	/*text-indent: 2em;*/  
+	font-size: 16px;
+	line-height: 1.428;
+	color: #666666;
 	margin-top: 24px;
 	padding-left: 35px;
 	background: url(../img/check_small.png) no-repeat left 0;
 }
 .content .paper dd.level3 p {
-	font: lighter 16px/24px "微软雅黑";
+	font-size: 16px;
+	line-height: 1.428;
 	padding-left: 20px;
+	color: #666;
 	text-indent: 0;
 	background: url(../img/dot3.png) no-repeat left 5px;
 }
+
 .content .paper dd.level3 {
-	font: lighter 16px/24px "微软雅黑";
+	font-size: 16px;
+	line-height: 1.428;
+	padding-left: 20px;
 	margin-top: 24px;
+	background: rgba(255,255,255,0);
+}
+.content .paper dd.level4 p {
+	background: rgba(255,255,255,0);
+	text-indent: 0;
+}
+.content .paper dd.level4{
 	background: rgba(255,255,255,0);
 }
