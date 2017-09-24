@@ -33,7 +33,7 @@
 	text-decoration: none;
 }
 .slide .textBox a:hover {
-	background: #eb943c;
+	background: #c51316;
 }
 /*客户*/
 .customer  {
@@ -52,7 +52,7 @@
 	display: block;
 	width: 40px;
 	height: 1px;
-	background: #eb943c;
+	background: #c51316;
 	margin: 0 auto 24px auto;
 }
 .customer .customer_hd p {
@@ -95,7 +95,7 @@
 	display: block;
 	width: 40px;
 	height: 1px;
-	background: #eb943c;
+	background: #c51316;
 	margin: 0 auto 24px auto;
 }
 .advantage .adv_hd p {
@@ -112,7 +112,7 @@
 }
 .advantage .adv_bd .adv_item {
 	margin-top: 40px;
-	background: #eb943c;
+	background: #c51316;
 	border-radius: 4px;
 	color: #FFFFFF;
 	text-align: center;
@@ -152,7 +152,7 @@
 	display: block;
 	width: 40px;
 	height: 1px;
-	background: #eb943c;
+	background: #c51316;
 	margin: 0 auto 24px auto;
 }
 .products .prod_hd p {
@@ -189,7 +189,7 @@
 	margin: 0;*/
 	margin-top: 0;
 	padding: 5px 0;
-	border-bottom: 1px solid #eb943c;
+	border-bottom: 1px solid #c51316;
 }
 .products .prod_bd dl {
 	margin-top: 15px;
@@ -221,7 +221,7 @@
 	margin-top: 40px;
 }
 .products .prod_bd a:hover {
-	/*background: #eb943c;*/
+	/*background: #c51316;*/
 }
 
 /*客户服务*/
@@ -242,7 +242,7 @@
 	display: block;
 	width: 40px;
 	height: 1px;
-	background: #eb943c;
+	background: #c51316;
 	margin: 0 auto 24px auto;
 }
 .service .service_hd p {
@@ -269,8 +269,8 @@
 	padding-left: 10px;
 	line-height: 30px;
 	margin-top: 40px;
-	border-left: 2px solid #eb943c;
-	color: #eb943c;
+	border-left: 2px solid #c51316;
+	color: #c51316;
 }  
 .service .service_bd .ser_item:hover h3 a {
 	color: #e60012;
@@ -320,7 +320,7 @@
 	color: #e60012;
 }  
 .service .service_bd .ser_item2:hover h3 a {
-	color: #eb943c;
+	color: #c51316;
 }
 .service .service_bd .ser_item2:hover span {
 	display: inline-block;
@@ -333,7 +333,7 @@
 .service .service_bd .ser_item2 h3 {
 	transition: all 0.2s ease-in;
 	margin-top: 10px;
-	border-bottom: 1px solid #eb943c;
+	border-bottom: 1px solid #c51316;
 }
 .service .service_bd .ser_item2 p {
 	font: lighter 16px/22px "微软雅黑";
@@ -350,7 +350,7 @@
 }
 .service .service_bd .ser_item2 span {
 	display: none;
-	color: #eb943c;
+	color: #c51316;
 	padding-left: 10px;
 	transition: all 0.2s ease-in;
 }
@@ -386,7 +386,7 @@
 	display: block;
 	width: 40px;
 	height: 1px;
-	background: #eb943c;
+	background: #c51316;
 	margin: 0 auto 24px auto;
 }
 .projects .projects_hd p {
@@ -431,7 +431,7 @@
 	/*text-decoration: none;*/
 	font-size: 16px;
 	line-height: 1.428;
-	color: #eb943c;
+	color: #c51316;
 }
 
 

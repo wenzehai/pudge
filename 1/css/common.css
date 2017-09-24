@@ -71,20 +71,20 @@ h5 {
 	
 }
 .navbar-default .navbar-nav > li > a:hover {
-	color: #eb943c;
+	color: #c51316;
 	background: #eee;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  	color: #eb943c;
+  	color: #c51316;
   	background: #FFFFFF;
 }
 .navbar-right .dropdown-menu.features_menu {
 	min-width: 400px;
 }
 .navbar-right .dropdown-menu.features_menu h4 {
-	color: #eb943c;
+	color: #c51316;
 	padding-left: 10px;
 }
 .navbar-right .features_menu > li > ul {
@@ -102,12 +102,12 @@ h5 {
     white-space: nowrap;
 }
 .navbar-right .features_menu > li > ul > li a:hover {
-	color: #eb943c;
+	color: #c51316;
     text-decoration: none;
     background-color: #f5f5f5;
 }
 .dropdown-menu > li > a:hover {
-	color: #eb943c;
+	color: #c51316;
 }
 .dropdown-menu > li > a {
 	padding: 8px 20px;
@@ -141,7 +141,7 @@ aside .asideBox a {
 	background: url(../img/backtop.png) no-repeat center 15px;
 }
 aside .asideBox a:hover {
-	color: #eb943c;
+	color: #c51316;
 	background: url(../img/backtop_pre.png) no-repeat center 15px;
 }
 /*footer1*/
@@ -174,7 +174,7 @@ aside .asideBox a:hover {
 }
 .footer1 .sloganBox button {
 	margin-top: 30px;
-	background: #f99d40;
+	background: #c51316;
 	color: #FFFFFF;
 	border: none;
 	outline: none;
@@ -182,7 +182,7 @@ aside .asideBox a:hover {
 	height: 40px;
 }
 .footer1 .sloganBox button:hover {
-	background: #eb943c;
+	background: #c51316;
 }
 
 .footer2 {
@@ -193,7 +193,7 @@ aside .asideBox a:hover {
 	margin: 40px 0 20px 0;
 	font: 18px/18px "微软雅黑";
 	text-align: left;
-	color: #f99d40;
+	color: #c51316;
 }
 .footer2 .container .firstHd {
 	text-align: left;
@@ -208,7 +208,7 @@ aside .asideBox a:hover {
 }
 .footer2 .footerInfo_bd {
 	text-align: left;
-	/*color: #f99d40;*/
+	/*color: #c51316;*/
 }
 .footer2 .footerInfo_bd ul {
 	margin-top: 10px;
@@ -225,7 +225,7 @@ aside .asideBox a:hover {
 }
 .footer2 .footerInfo_bd ul li a.active,
 .footer2 .footerInfo_bd ul li a:hover {
-	color: #f99d40;
+	color: #c51316;
 }
 .footer2 .siteInfo {
 	margin: 20px;
