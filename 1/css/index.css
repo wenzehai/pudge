@@ -24,7 +24,7 @@
 	margin-left: 50px;
 	display: inline-block;
 	margin-top: 14px;
-	background: #fa9f44;
+	background: #c51317;
 	font-size: 16px;
 	color: #FFFFFF;
 	text-align: center;
@@ -33,7 +33,7 @@
 	text-decoration: none;
 }
 .slide .textBox a:hover {
-	background: #c51316;
+	background: #bb1215;
 }
 /*客户*/
 .customer  {
@@ -112,16 +112,18 @@
 }
 .advantage .adv_bd .adv_item {
 	margin-top: 40px;
-	background: #c51316;
+	/*background: #c51316;*/
+	border: 1px solid #c51316;
 	border-radius: 4px;
 	color: #FFFFFF;
 	text-align: center;
 	padding: 40px 28px;
 	/*transition: all 1s ease-in-out;*/
 }
-.advantage .adv_bd .adv_item h4 {
+.advantage .adv_bd .adv_item h3 {
 	margin: 40px 0 20px 0;
 	font: lighter 24px/24px "微软雅黑";
+	color: #333;
 }
 .advantage .adv_bd .adv_item img {
 	transition: all 1s ease-in-out;
@@ -132,6 +134,7 @@
 }
 .advantage .adv_bd .adv_item p {
 	font: lighter 14px/18px "微软雅黑";
+	color: #666666;
 }
 
 /*我们的产品*/
@@ -210,7 +213,8 @@
 	display: inline-block;
 	/*background: #fa9f44;*/
 	font-size: 16px;
-	color: #fa9f44;
+	color: #c51317;
+	padding-bottom: 2px;
 	font-weight: lighter;
 	/*text-decoration: underline;*/
 	/*text-align: center;*/
