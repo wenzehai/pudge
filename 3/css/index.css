@@ -1,9 +1,580 @@
 @media only screen and (min-width: 1020px ) {
+/*首页轮播*/
+#banner .bannerPic {
+	z-index: 0;
+	margin: 0 auto;
+	height: 620px;
+	position: relative;
+	overflow: hidden;
+}
+#banner .bannerPic .carouselImgCon {
+	position: relative;
+	text-align: center;
+}
+#banner .bannerPic .carouselImgCon a {
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+}
+#banner .bannerPic .carouselImgCon span.slogan {
+	position: absolute;
+	left: 50%;
+	top: 230px;
+	margin-left: -212px;
+	color: #FFFFFF;
+	font-size: 48px;
+	line-height: 60px;
+}	
+#banner .bannerPic .carouselImgCon span.subDes {
+	position: absolute;
+	top: 300px;
+	left: 50%;
+	margin-left: -240px;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 20px;
+}
+#banner .bannerPic .carouselImgCon span.learnMore {
+	position: absolute;
+	top: 340px;
+	left: 460px;
+	display: inline-block;
+	padding: 3px 10px;
+	background: #c51317;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 2px;
+}	
+.prev{
+	background: rgba(100,100,100,0.6);
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	color: #f5f5f5;
+	font: lighter 18px/30px "微软雅黑";
+	text-align: center;
+}
+.next {
+	background: rgba(100,100,100,0.6);
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 10%;
+	color: #f5f5f5;
+	font: lighter 18px/30px "微软雅黑";
+	text-align: center;
+}
+.prev:hover,
+.next:hover {
+	background: #c51317;
+	color: #ffffff;
+}	
+#banner .circle {
+	height: 30px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+#banner .circle span {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	margin: 0 10px;
+	border: 1px solid #d6d5d5;
+	cursor: pointer;
+}
+#banner .circle span.active,
+#banner .circle span:hover {
+	background: #c51317;
+	width: 4px;
+	height: 4px;
+	border: 3px solid #ffb1b3;
+	transform: scale(1.5);
+}	
 	
+/*产品模块*/	
+#products {
+	background: #FFFFFF;
+}
+#products .products_hd {
+	padding: 74px 0;
+	text-align: center;
+}
+#products .products_hd span {
+	display: inline-block;
+	width: 100px;
+	height: 47px;
+	font: lighter 24px/47px "微软雅黑";
+	border-top: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+#products .products_bd {
+	/*width: 245px;*/
+	/*padding: 0 44px;*/
+}	
+#products .products_bd .tab {
+	list-style: none;
+	padding-left: 44px;
+}	
+#products .products_bd .tab li {
+	width: 250px;
+	height: 50px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 50px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+#products .products_bd .tab li.active,
+#products .products_bd .tab li:hover {
+	border: 1px solid #848484;
+	background: #f5f5f5;
+}
+#products .products_bd .tabCon {
+	width: 801px;
+	padding-right: 30px;
+}
+#products .products_bd .tabCon ul {
+	position: relative;
 	
+}
+#products .products_bd .tabCon ul li {
+	float: left;
+	width: 267px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	transition: all ease-in 1s;
+}
+#products .products_bd .tabCon ul li .textBox {
 	
+	padding: 10px;
+	background: #c51317;
+	position: absolute;
+	left: 0;
+	/*top: 460px;*/
+	bottom: 0;
+	color: #FFFFFF;
+}
+#products .products_bd .tabCon ul li .textBox h3 {
+	color: #FFFFFF;
+	font-size: 18px;
+}
+#products .products_bd .tabCon ul li .textBox p {
+	/*display: none;*/
+	color: #FFFFFF;
+	font-size: 14px;
+}
+#products .products_bd .tabCon ul li:hover p {
+	/*display: block;*/
 	
+}
+
+/*客户服务*/
+#service .service_hd {
+	margin: 0 auto;
+	padding: 74px 0;
+	text-align: center;
+}
+#service .service_hd span {
+	display: inline-block;
+	width: 100px;
+	height: 47px;
+	font: lighter 24px/47px "微软雅黑";
+	border-top: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+#service .service_bd {
+	position: relative;
+	overflow: hidden;
 	
+}
+#service .service_bd .imgBox1 {
+	width: 33.33%;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.8);
+	box-sizing: border-box;
+}
+#service .service_bd .imgBox1 img {
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;  
+}
+#service .service_bd .textBox {
+	position: absolute;
+	padding-right: 40px;
+	top: 35px;
+	left: 60px;
+	text-align: left;
+}
+#service .service_bd .textBox span.service_title {
+	color: #FFFFFF;
+	width: 35px;
+	border-bottom: 2px solid #FFFFFF;
+	padding: 0 25px 10px 0;
+	line-height: 60px;
+	font-size: 20px;
+}
+#service .service_bd .textBox p {
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all ease 1s;  
+}
+#service .service_bd .imgBox1:hover .textBox p {
+	opacity: 1;
+}
+#service .service_bd .imgBox1:hover img {
+	opacity: 0.5;
+}
+#service .service_bd .imgBox2 {
+	width: 41.67%;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.8);
+}
+
+#service .service_bd .imgBox2 img {
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;  
+}
+#service .service_bd .textBox {
+	position: absolute;
+	padding-right: 40px;
+	top: 35px;
+	left: 60px;
+	text-align: left;
+}
+#service .service_bd .textBox span.service_title {
+	color: #FFFFFF;
+	width: 35px;
+	border-bottom: 2px solid #FFFFFF;
+	padding: 0 25px 10px 0;
+	line-height: 60px;
+	font-size: 20px;
+}
+#service .service_bd .textBox p {
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all ease 1s;  
+}
+#service .service_bd .imgBox2:hover .textBox p {
+	opacity: 1;
+}
+#service .service_bd .imgBox2:hover img {
+	opacity: 0.5;
+}
+#service .service_bd .imgBox3 {
+	width: 25%;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.8);
+}
+#service .service_bd .imgBox3 img {
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;  
+}
+#service .service_bd .textBox {
+	position: absolute;
+	padding-right: 40px;
+	top: 35px;
+	left: 60px;
+	text-align: left;
+}
+#service .service_bd .textBox span.service_title {
+	color: #FFFFFF;
+	width: 35px;
+	border-bottom: 2px solid #FFFFFF;
+	padding: 0 25px 10px 0;
+	line-height: 60px;
+	font-size: 20px;
+}
+#service .service_bd .textBox p {
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all ease 1s;  
+}
+#service .service_bd .imgBox3:hover .textBox p {
+	opacity: 1;
+}
+#service .service_bd .imgBox3:hover img {
+	opacity: 0.5;
+}
+
+#service .service_bd .imgBox4 {
+	width: 25%;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.8);
+}
+#service .service_bd .imgBox4  img {
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;  
+}
+#service .service_bd .textBox {
+	position: absolute;
+	padding-right: 40px;
+	top: 35px;
+	left: 60px;
+	text-align: left;
+}
+#service .service_bd .textBox span.service_title {
+	color: #FFFFFF;
+	width: 35px;
+	border-bottom: 2px solid #FFFFFF;
+	padding: 0 25px 10px 0;
+	line-height: 60px;
+	font-size: 20px;
+}
+#service .service_bd .textBox p {
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all ease 1s;  
+}
+#service .service_bd .imgBox4:hover .textBox p {
+	opacity: 1;
+}
+#service .service_bd .imgBox4:hover  img {
+	opacity: 0.5;
+}
+
+#service .service_bd .imgBox5 {
+	width: 41.6%;
+	overflow: hidden;
+	position: relative;
+	background: rgba(0,0,0,0.8);
+}
+#service .service_bd .imgBox5 img {
+	width: 100%;
+	height: 100%;
+	transition: all ease 1s;  
+}
+#service .service_bd .textBox {
+	position: absolute;
+	padding-right: 40px;
+	top: 35px;
+	left: 60px;
+	text-align: left;
+}
+#service .service_bd .textBox span.service_title {
+	color: #FFFFFF;
+	width: 35px;
+	border-bottom: 2px solid #FFFFFF;
+	padding: 0 25px 10px 0;
+	line-height: 60px;
+	font-size: 20px;
+}
+#service .service_bd .textBox p {
+	color: #FFFFFF;
+	opacity: 0;
+	transition: all ease 1s;  
+}
+#service .service_bd .imgBox5:hover .textBox p {
+	opacity: 1;
+}
+#service .service_bd .imgBox5:hover img {
+	opacity: 0.5;
+}
+
+/*帕吉优势*/
+#advantage .advantage_hd {
+	margin: 0 auto;
+	padding: 74px 0;
+	text-align: center;
+}
+#advantage .advantage_hd span {
+	display: inline-block;
+	width: 100px;
+	height: 47px;
+	font: lighter 24px/47px "微软雅黑";
+	border-top: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+#advantage .advantage_bd {
+	padding: 0 45px;
+}
+#advantage .advantage_bd ul {
+	position: relative;
+}
+#advantage .advantage_bd ul li{
+	float: left;
+	width: 240px;
+	text-align: center;
+	padding: 20px 15px 90px 15px;
+	transition: all ease 1s; 
+}
+#advantage .advantage_bd ul li img {
+	width: 72px;
+	height: 72px;
+}
+#advantage .advantage_bd ul li h3 {
+	margin: 10px 0;
+}
+#advantage .advantage_bd ul li:hover {
+	transform: translateY(-10px);
+}
+
+/*成功案例*/
+#projects {
+	background: #f5f5f5;
+}
+#projects .projects_hd {
+	margin: 0 auto;
+	padding: 74px 0;
+	text-align: center;
+}
+#projects .projects_hd span {
+	display: inline-block;
+	width: 100px;
+	height: 47px;
+	font: lighter 24px/47px "微软雅黑";
+	border-top: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+#projects .projects_bd ul {
+	position: relative;
+}
+#projects .projects_bd ul li{
+	float: left;
+	width: 292px;
+	height: 584px;
+	/*padding: 2px;*/
+	text-align: center;
+	background: #FFFFFF;
+}
+#projects .projects_bd ul li .proBox_hd {
+	width: 292px;
+	height: 292px;
+	/*padding: 10px;*/
+	overflow: hidden;
+}
+#projects .projects_bd ul li .proBox_hd .company_view {
+	width: 100%;
+	height: 100%;
+	transition: all ease-in 1s;
+}
+#projects .projects_bd ul li:hover .proBox_hd .company_view {
+	width: 105%;
+	height: 105%;
+	/*transform: scale(1.05);
+	transform-origin: center;*/
+}
+#projects .projects_bd ul li .proBox_bd .cusLogo {
+	margin-top: 70px;
+	width: 200px;
+}
+#projects .projects_bd ul li .proBox_bd p {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+#projects .projects_bd ul li .proBox_bd {
+	width: 292px;
+	height: 292px;
+	/*padding: 10px;*/
+	overflow: hidden;
+}
+#projects .projects_bd ul li .proBox_bd .company_view {
+	width: 100%;
+	height: 100%;
+	transition: all ease-in 1s;
+}
+#projects .projects_bd ul li:hover .proBox_bd .company_view {
+	width: 105%;
+	height: 105%;
+	/*transform: scale(1.05);
+	transform-origin: center;*/
+}
+#projects .projects_bd ul li .proBox_hd .cusLogo {
+	margin-top: 70px;
+	width: 200px;
+}
+#projects .projects_bd ul li .proBox_hd p {
+	font-size: 18px;
+	margin-top: 20px;
+}
+#projects .projects_ft {
+	padding: 40px 0;
+	text-align: right;
+}
+#projects .projects_ft .moreBtn {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+
+/*典型客户*/
+#custormer .custormer_hd {
+	margin: 0 auto;
+	padding: 74px 0;
+	text-align: center;
+}
+#custormer .custormer_hd span {
+	display: inline-block;
+	width: 100px;
+	height: 47px;
+	font: lighter 24px/47px "微软雅黑";
+	border-top: 2px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+#custormer .custormer_bd {
+	padding: 0 15px;
+}
+#custormer .custormer_bd ul {
+	list-style: none;
+}
+#custormer .custormer_bd ul li {
+	width: 190px;
+	float: left;
+	height: 100px;
+	margin-bottom: 30px;
+}
+#custormer .custormer_bd ul li .logoBox {
+	width: 80%;
+	height: 80%;
+	transition: all ease 0.3s;
+}
+#custormer .custormer_bd ul li .logoBox .pre {
+	width: 100%;
+	display: none;
+}
+#custormer .custormer_bd ul li .logoBox .gray {
+	width: 100%;
+	display: block;
+}
+#custormer .custormer_bd ul li:hover .logoBox .pre {
+	display: block;
+}
+#custormer .custormer_bd ul li:hover .logoBox .gray {
+	display: none;
+}
+#custormer .customer_ft {
+	padding: 40px 0;
+	text-align: right;
+}
+#custormer .customer_ft .moreBtn {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+
+
+
+
 }
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
 	

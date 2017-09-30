@@ -1,0 +1,189 @@
+@media only screen and (min-width: 1020px ) {
+
+/*顶部图片*/
+#topBanner {
+	z-index: 9;
+	margin: 0 auto;
+	position: relative;
+	background: url(../img/topbanner.jpg) no-repeat center top;
+	background-size: cover;
+	height: 250px;
+}
+#topBanner span.pageTitle {
+	position: absolute;
+	top: 99px;
+	left: 76px;
+	font-size: 48px;
+	color: #FFFFFF;
+	font-weight: lighter;
+}
+
+/*面包屑*/
+#bread .container{
+	border-bottom: 1px solid #eaeaea;
+}
+#bread .breadcrumb {
+	position: relative;
+}
+#bread .breadcrumb li {
+	float: left;
+	
+}
+#bread .breadcrumb li a {
+	line-height: 48px;
+	padding-left: 10px;
+	padding-right: 15px;
+	background: url(../img/icon_arrowRight.png) no-repeat right center;
+	font-size: 12px;
+	color: #b6b6b6;
+	cursor: pointer;
+}
+#bread .breadcrumb li.active {
+	font-size: 12px;
+	line-height: 47px;
+	padding-left: 10px;
+	color: #333333;
+	background: none;
+	padding-right: 0;
+}
+
+/*主选项卡*/
+#mainTab {
+	padding: 45px 0;
+}
+#mainTab ul {
+	width: 260px;
+	position: relative;
+	margin: 0 auto;
+}
+#mainTab ul li {
+	float: left;
+	text-align: center;
+	margin-right: 20px;
+}
+#mainTab ul li a {
+	width: 107px;
+	display: inline-block;
+	line-height: 40px;
+	color: #666666;
+	border: 1px solid #FFFFFF;
+}
+#mainTab ul li:hover a,
+#mainTab ul li.active a {
+	border: 1px solid #c51317;
+	/*background: #c51317;*/
+	color: #c51317;
+}
+
+/*左侧菜单*/
+#main {
+	
+}
+#main .aside {
+	width: 240px;
+	padding: 0 30px 0 30px;
+}
+#main .aside .asideMenu {
+	width: 240px;
+}
+#main .aside .asideMenu dt {
+	font-size: 16px;
+	color: #333333;
+	line-height: 46px;
+	border-bottom: 1px solid #b0b0b0;
+}
+#main .aside .asideMenu dd {
+	line-height: 45px;
+	margin-top: 8px;
+	box-sizing: content-box;
+}
+#main .aside .asideMenu dd a {
+	padding-left: 18px;
+	display: block;
+	line-height: 45px;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+#main .aside .asideMenu dd.active a {
+	color: #FFFFFF;
+	background: #c51317;
+	border: 1px solid #c51317;
+}
+#main .aside .asideMenu dd a:hover {
+	color: #c51317;
+	border: 1px solid #c51317;
+}
+#main .aside .asideMenu dd.active a:hover {
+	color: #FFFFFF;
+	border: 1px solid #c51317;
+}
+#main .aside .projectsBanner {
+	margin-top: 20px;
+	
+}
+#main .aside .projectsBanner dt{
+	font-size: 16px;
+	color: #333333;
+	line-height: 46px;
+	border-bottom: 1px solid #b0b0b0;
+}
+#main .aside .projectsBanner dd img {
+	margin-top: 8px;
+}
+#main .aside .projectsBanner dd p a {
+	line-height: 30px;
+}
+
+/*主体内容*/
+#main .content {
+	width: 870px;
+	text-align: center;
+}
+#main .content h2 {
+	margin-bottom: 20px;
+	text-align: left;
+}
+#main .content h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+#main .content p {
+	text-indent: 2em;
+	margin-bottom: 10px;
+	text-align: left;
+}
+#main .content ul li {
+	margin-left: 15px;
+	list-style: square;
+	text-align: left;
+}
+#main .content img {
+	margin: 20px 0;
+	text-align: center;
+	max-width: 870px;
+}
+
+
+
+
+
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1019px) {
+	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (max-width: 767px ) {
+	
+	
+	
+	
+	
+	
+}
