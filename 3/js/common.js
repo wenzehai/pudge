@@ -35,7 +35,7 @@ window.yx = {
 			var uls = yx.ga('.subNav ul');
 			var newLis = [];		//存储实际有用的li
 			//首页是没有hover状态的，所以要从1开始循环，后面3个也没有hover状态
-			for(var i=1; i<lis.length-2; i++) {
+			for(var i=1; i<lis.length-1; i++) {
 				newLis.push(lis[i]);		//把循环到的元素放到空数组中
 			}
 			
@@ -43,7 +43,7 @@ window.yx = {
 				newLis[i].index = uls[i].index = i;		//统一索引值
 				newLis[i].onmouseenter = uls[i].onmouseenter = function(){
 					newLis[this.index].className = "active";
-					subNav.style.opacity = 0.95;
+					subNav.style.opacity = 1;
 					uls[this.index].style.display = "block";
 				}
 				newLis[i].onmouseleave = uls[i].onmouseleave = function(){

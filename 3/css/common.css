@@ -171,7 +171,7 @@ a:hover {
 	padding-left: 20px;
 }
 #header .conInfo_bd ul li {
-	float: left;
+	float: right;
 	position: relative;
 	display: block;
 	margin-left: 20px;
