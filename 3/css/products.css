@@ -164,10 +164,23 @@
 	max-width: 870px;
 }
 
-
-
-
-
+#main .logoBox {
+	position: relative;
+}
+#main .logoBox .customerLogo {
+	float: left;
+	width: 225px;
+	height: 130px;
+	margin-top: 20px;
+	text-align: center;
+}
+#main .logoBox .customerLogo img {
+	width: 190px;
+	display: inline-block;
+}
+#main .logoBox .customerLogo span {
+	display: block;
+}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
