@@ -52,24 +52,24 @@ newProduct.on("leftClick",function(){
 */
 
 
-//人气推荐选项卡
+//产品选项卡
 //自执行函数避免变量污染
-//(function(){
-//	var titles = yx.ga("#hot header li");
-//	var contents = yx.ga("#hot .hotCon");
-//	
-//	for(var i=0; i<titles.length; i++) {
-//		titles[i].index = i;
-//		titles[i].onclick = function(){
-//			for(var i=0; i<titles.length; i++){
-//				titles[i].className = "";
-//				contents[i].style.display = "none";
-//			}
-//			titles[this.index].className = "active";
-//				contents[this.index].style.display = "block";
-//		}
-//	}
-//})();
+(function(){
+	var titles = yx.ga("#products .tab li");
+	var contents = yx.ga("#products .tabCon");
+	
+	for(var i=0; i<titles.length; i++) {
+		titles[i].index = i;
+		titles[i].onclick = function(){
+			for(var i=0; i<titles.length; i++){
+				titles[i].className = "";
+				contents[i].style.display = "none";
+			}
+			titles[this.index].className = "active";
+				contents[this.index].style.display = "block";
+		}
+	}
+})();
 
 //限时购
 /*(function(){

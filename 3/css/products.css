@@ -164,6 +164,9 @@
 	max-width: 870px;
 }
 
+
+/*logo组合页面*/
+
 #main .logoBox {
 	position: relative;
 }
@@ -181,6 +184,11 @@
 #main .logoBox .customerLogo span {
 	display: block;
 }
+
+
+
+
+
 
 }
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
