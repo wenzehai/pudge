@@ -93,7 +93,7 @@
 				case "opacity": 	//如果走的是透明度，需要设置透明度与transition
 					for(var i=0; i<this.opacityItem.length; i++){
 						this.opacityItem[i].style.opacity = 0;
-						this.opacityItem[i].style.transition = "0.3s opacity";
+						this.opacityItem[i].style.transition = "1.2s opacity";
 					}
 					this.opacityItem[0].style.opacity = 1;
 					break;

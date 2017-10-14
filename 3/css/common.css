@@ -108,25 +108,24 @@ a:hover {
 	color: #025bac;
 }
 
-@media only screen and (min-width: 1020px ) {
+/*@media only screen and (min-width: 1020px ) {*/
 	/*导航栏*/
 #header {
-	height: 100px;
+	width: 100%;
+	height: 80px;
 	background: #FFFFFF;
 	box-shadow: 0 2px 4px rgba(200,200,200,0.3);
 	z-index: 25;
 	position: relative;
-	/*position: fixed;*/
-	/*top: 0;*/
-	
+	position: fixed;
 }
-#header .logo h1{
-	margin-top: 14px;
-	padding: 0 100px 0 27px;
+#header .logo {
+	padding: 13px 100px 0 27px;
 }
 #header .logo img {
-	width: 143px;
-	height: 63px;
+	display: block;
+	width: 127px;
+	height: 56px;
 }
 #header .navbar ul {
 	position: relative;
@@ -136,8 +135,9 @@ a:hover {
 }
 #header .navbar ul li a {
 	display: inline-block;
-	font: normal 18px/98px "微软雅黑";
+	font: normal 18px/78px "微软雅黑";
 	padding: 0 28px;
+	border-bottom: 2px solid #ffffff;
 }
 #header .navbar ul li a:hover {
 	color: #c51317;
@@ -164,7 +164,7 @@ a:hover {
 	color: #025bac;
 }
 #header .conInfo_bd {
-	padding: 13px 0 0 0;
+	padding: 7px 0 0 0;
 }
 #header .conInfo_bd ul {
 	position: relative;
@@ -176,7 +176,6 @@ a:hover {
 	display: block;
 	margin-left: 20px;
 	width: 32px;
-
 }
 
 #header .conInfo_bd ul li .alertBox {
@@ -186,7 +185,6 @@ a:hover {
 	left: -50%;
 	margin-left: -30px;
 	width: 110px;
-	/*height: 90px;*/
 	text-align: center;
 	padding: 5px 5px 0 5px;
 	background: #FFFFFF;
@@ -227,12 +225,8 @@ a:hover {
 	opacity: 0;
 	transition: all ease-in 0.6s; 
 }
-.subNav .container {
-	/*padding: 28px 0;*/
-}
 .subNav ul {
 	display: none;
-	/*margin: 0 0 0 80px;*/
 	position: relative;
 }
 .subNav ul li {
@@ -297,7 +291,7 @@ a:hover {
 }
 
 #footer .footer_hd ul li {
-	border-left: 1px solid #999999;
+	border-left: 1px solid #e4e4e4;
 	float: left;
 	padding: 0 30px ;
 	height: 100px;
@@ -339,12 +333,12 @@ a:hover {
 }
 
 #footer .footer_bd {
-	border-top: 1px solid #999999;
+	border-top: 1px solid #e4e4e4;
 	padding: 10px 0;
 }
 #footer .footer_bd p {
 	font-size: 12px;
-	color: #c3c3c3;
+	color: #a0a0a0;
 }
 
 
@@ -356,7 +350,7 @@ a:hover {
 	
 	
 	
-}
+/*}
 @media only screen and (min-width: 768px) and (max-width: 1019px) {
 	
 	
@@ -373,7 +367,7 @@ a:hover {
 	
 	
 	
-}
+}*/
 
 
 
