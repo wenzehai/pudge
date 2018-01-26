@@ -1,0 +1,2197 @@
+@media only screen and (min-width: 1200px ) {
+    /*首页轮播*/
+    #banner {
+        box-sizing: border-box;
+        padding-top: 80px;
+    }
+
+    #banner .bannerPic {
+        z-index: 0;
+        margin: 0 auto;
+        height: 620px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner .bannerPic .carouselImgCon {
+        position: relative;
+        text-align: center;
+    }
+
+    #banner .bannerPic .carouselImgCon a {
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+    }
+
+    #banner .bannerPic .carouselImgCon a img {
+        transition: all ease-in 2s;
+
+    }
+
+    #banner .bannerPic .carouselImgCon span.slogan {
+        position: absolute;
+        left: 50%;
+        top: 230px;
+        margin-left: -212px;
+        color: #FFFFFF;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.subDes {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        margin-left: -240px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.learnMore {
+        position: absolute;
+        top: 340px;
+        left: 460px;
+        display: inline-block;
+        padding: 3px 10px;
+        background: #c51317;
+        color: #FFFFFF;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+
+    .prev {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .next {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        right: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background: #c51317;
+        color: #ffffff;
+    }
+
+    #banner .circle {
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #banner .circle span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 1px solid #d6d5d5;
+        cursor: pointer;
+    }
+
+    #banner .circle span.active,
+    #banner .circle span:hover {
+        background: #c51317;
+        width: 4px;
+        height: 4px;
+        border: 3px solid #ffb1b3;
+        transform: scale(1.5);
+    }
+
+    /*产品模块*/
+    #products {
+        background: #FFFFFF;
+    }
+
+    #products .products_hd {
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #products .products_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #products .products_bd {
+        position: relative;
+        width: 100%;
+    }
+
+    #products .products_bd .tab {
+        width: 25%;
+        float: left;
+        list-style: none;
+    }
+
+    #products .products_bd .tab li {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+
+    #products .products_bd .tab li.active,
+    #products .products_bd .tab li.active:hover {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    #products .products_bd .tab li:hover {
+        border: 1px solid #D0D0D0;
+    }
+
+    #products .products_bd .tabCon {
+        margin-left: 5%;
+        width: 70%;
+        float: right;
+        transition: all ease-in 1s;
+        display: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #products .products_bd .tabCon ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #products .products_bd .tabCon ul li {
+        font-size: 0;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        transition: all ease-in 1s;
+    }
+
+    #products .products_bd .tabCon ul.one li {
+        width: 33.3%;
+    }
+
+    #products .products_bd .tabCon ul li img {
+        width: 100%;
+    }
+
+    #products .products_bd .tabCon ul.two li {
+        width: 50%;
+    }
+
+    #products .products_bd .tabCon ul.one li:hover .textBox {
+        /*font-size: 1em;*/
+        transform: translateY(-170px);
+        background: rgba(197, 20, 24, 1);
+    }
+
+    #products .products_bd .tabCon ul li .textBox h3 {
+        color: #FFFFFF;
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+        margin-top: 8px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox {
+        height: 50%;
+        transition: all ease-in 0.8s;
+        padding: 10px;
+        background: rgba(200, 200, 200, 0.8);
+        position: absolute;
+        left: 0;
+        bottom: -230px;
+    }
+
+    #products .products_bd .tabCon ul li:hover .textBox {
+        transform: translateY(-160px);
+        background: rgba(197, 20, 24, 1);
+    }
+
+    /*客户服务*/
+    #service .service_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #service .service_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #service .service_bd {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #service .service_bd .textBox {
+        position: absolute;
+        padding-right: 40px;
+        top: 25px;
+        left: 45px;
+        text-align: left;
+    }
+
+    #service .service_bd .imgBox1 {
+        width: 33.33%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+    }
+
+    #service .service_bd .imgBox1 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 0.8s;
+        opacity: 1;
+        display: block;
+    }
+
+    #service .service_bd .imgBox1:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .textBox p {
+        color: #FFFFFF;
+        opacity: 0;
+        transition: all ease 1s;
+        font-size: 0.75em;
+    }
+
+    #service .service_bd .imgBox1:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox1:hover img {
+        opacity: 0.5;
+
+    }
+
+    #service .service_bd .imgBox2 {
+        width: 41.67%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+
+    }
+
+    #service .service_bd .imgBox2 img {
+        width: 99.9%;
+        height: 99.9%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox2:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox2:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox3 {
+        width: 25%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox3 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox3:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox3:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox4 {
+        width: 25%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox4 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox4:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox4:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox5 {
+        width: 41.6%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox5 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox5:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox5:hover img {
+        opacity: 0.5;
+    }
+
+    /*帕吉优势*/
+    #advantage .advantage_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #advantage .advantage_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #advantage .advantage_bd ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #advantage .advantage_bd ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 0 2.5% 90px 2.5%;
+        transition: all ease 1s;
+    }
+
+    #advantage .advantage_bd ul li img {
+        width: 72px;
+        height: 72px;
+    }
+
+    #advantage .advantage_bd ul li h3 {
+        margin: 10px 0;
+    }
+
+    #advantage .advantage_bd ul li p {
+        font-size: 0.875em;
+    }
+
+    #advantage .advantage_bd ul li:hover {
+        transform: translateY(-10px);
+    }
+
+    /*成功案例*/
+    #projects {
+        background: #f5f5f5;
+    }
+
+    #projects .projects_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #projects .projects_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #projects .projects_bd ul {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li {
+        width: 25%;
+        position: relative;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 0;
+        text-align: center;
+    }
+
+    #projects .projects_bd ul li img {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li .mask {
+        width: 92%;
+        height: 94%;
+        margin: 4% 3%;
+        position: absolute;
+        border: 1px solid rgba(197, 20, 24, 0);
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+    }
+
+    #projects .projects_bd ul li .mask:hover {
+        margin: 4% 3%;
+        width: 92%;
+        height: 94%;
+        border: 1px solid rgba(197, 20, 24, 1);
+    }
+
+    #projects .projects_ft {
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+        background: url(../img/icon_longArrowRight_gray.png) no-repeat right center;
+    }
+
+    .moreBtn:hover {
+        background: url(../img/icon_longArrowRight_pre.png) no-repeat right center;
+    }
+
+    /*典型客户*/
+    #custormer .custormer_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #custormer .custormer_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #custormer .custormer_bd {
+        width: 100%;
+        /*padding: 0 15px;*/
+    }
+
+    #custormer .custormer_bd ul {
+        width: 100%;
+        list-style: none;
+    }
+
+    #custormer .custormer_bd ul li {
+        width: 16.5%;
+        float: left;
+        height: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #custormer .custormer_bd ul li img {
+        width: 80%;
+    }
+
+    #custormer .customer_ft {
+        width: 100%;
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    #custormer .customer_ft .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+    }
+}
+
+/*=========================================================================*/
+@media only screen and (min-width: 1020px) and (max-width: 1199px) {
+
+    /*首页轮播*/
+    #banner {
+        box-sizing: border-box;
+        padding-top: 80px;
+    }
+
+    #banner .bannerPic {
+        z-index: 0;
+        margin: 0 auto;
+        height: 420px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner .bannerPic .carouselImgCon {
+        position: relative;
+        text-align: center;
+    }
+
+    #banner .bannerPic .carouselImgCon a {
+        position: absolute;
+        left: 50%;
+        margin-left: -650px;
+    }
+
+    #banner .bannerPic .carouselImgCon a img {
+        width: 100%;
+        transition: all ease-in 2s;
+
+    }
+
+    #banner .bannerPic .carouselImgCon span.slogan {
+        position: absolute;
+        left: 50%;
+        top: 230px;
+        margin-left: -212px;
+        color: #FFFFFF;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.subDes {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        margin-left: -240px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.learnMore {
+        position: absolute;
+        top: 340px;
+        left: 460px;
+        display: inline-block;
+        padding: 3px 10px;
+        background: #c51317;
+        color: #FFFFFF;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+
+    .prev {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .next {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        right: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background: #c51317;
+        color: #ffffff;
+    }
+
+    #banner .circle {
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #banner .circle span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 1px solid #d6d5d5;
+        cursor: pointer;
+    }
+
+    #banner .circle span.active,
+    #banner .circle span:hover {
+        background: #c51317;
+        width: 4px;
+        height: 4px;
+        border: 3px solid #ffb1b3;
+        transform: scale(1.5);
+    }
+
+    /*产品模块*/
+    #products {
+        background: #FFFFFF;
+    }
+
+    #products .products_hd {
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #products .products_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #products .products_bd {
+        position: relative;
+        width: 100%;
+    }
+
+    #products .products_bd .tab {
+        width: 20%;
+        float: left;
+        list-style: none;
+    }
+
+    #products .products_bd .tab li {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+
+    #products .products_bd .tab li.active,
+    #products .products_bd .tab li.active:hover {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    #products .products_bd .tab li:hover {
+        border: 1px solid #D0D0D0;
+    }
+
+    #products .products_bd .tabCon {
+        margin-left: 5%;
+        width: 75%;
+        float: right;
+        transition: all ease-in 1s;
+        display: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #products .products_bd .tabCon ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #products .products_bd .tabCon ul li {
+        font-size: 0;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        transition: all ease-in 1s;
+    }
+
+    #products .products_bd .tabCon ul.one li {
+        width: 33.3%;
+    }
+
+    #products .products_bd .tabCon ul li img {
+        width: 100%;
+    }
+
+    #products .products_bd .tabCon ul.two li {
+        width: 50%;
+    }
+
+    #products .products_bd .tabCon ul li .textBox h3 {
+        color: #FFFFFF;
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+        margin-top: 8px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox {
+        height: 50%;
+        transition: all ease-in 0.8s;
+        padding: 10px;
+        background: rgba(200, 200, 200, 0.8);
+        position: absolute;
+        left: 0;
+        bottom: -200px;
+    }
+
+    #products .products_bd .tabCon ul li:hover .textBox {
+        transform: translateY(-180px);
+        background: rgba(197, 20, 24, 1);
+    }
+
+    /*客户服务*/
+    #service .service_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #service .service_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #service .service_bd {
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    #service .service_bd .textBox {
+        position: absolute;
+        padding-right: 40px;
+        top: 25px;
+        left: 45px;
+        text-align: left;
+    }
+
+    #service .service_bd .imgBox1 {
+        width: 33.33%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+    }
+
+    #service .service_bd .imgBox1 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 0.8s;
+        opacity: 1;
+        display: block;
+    }
+
+    #service .service_bd .imgBox1:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .textBox p {
+        color: #FFFFFF;
+        opacity: 0;
+        transition: all ease 1s;
+        font-size: 0.75em;
+    }
+
+    #service .service_bd .imgBox1:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox1:hover img {
+        opacity: 0.5;
+
+    }
+
+    #service .service_bd .imgBox2 {
+        width: 41.67%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+
+    }
+
+    #service .service_bd .imgBox2 img {
+        width: 99.9%;
+        height: 99.9%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox2:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox2:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox3 {
+        width: 25%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox3 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox3:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox3:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox4 {
+        width: 25%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox4 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox4:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox4:hover img {
+        opacity: 0.5;
+    }
+
+    #service .service_bd .imgBox5 {
+        width: 41.6%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #service .service_bd .imgBox5 img {
+        width: 100%;
+        height: 100%;
+        transition: all ease 1s;
+        display: block;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        width: 35px;
+        border-bottom: 2px solid #FFFFFF;
+        padding: 0 25px 10px 0;
+        line-height: 60px;
+        font-size: 20px;
+    }
+
+    #service .service_bd .imgBox5:hover .textBox p {
+        opacity: 1;
+    }
+
+    #service .service_bd .imgBox5:hover img {
+        opacity: 0.5;
+    }
+
+    /*帕吉优势*/
+    #advantage .advantage_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #advantage .advantage_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #advantage .advantage_bd ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #advantage .advantage_bd ul li {
+        float: left;
+        width: 20%;
+        text-align: center;
+        padding: 0 2.5% 90px 2.5%;
+        transition: all ease 1s;
+    }
+
+    #advantage .advantage_bd ul li img {
+        width: 72px;
+        height: 72px;
+    }
+
+    #advantage .advantage_bd ul li h3 {
+        margin: 10px 0;
+    }
+
+    #advantage .advantage_bd ul li p {
+        font-size: 0.875em;
+    }
+
+    #advantage .advantage_bd ul li:hover {
+        transform: translateY(-10px);
+    }
+
+    /*成功案例*/
+    #projects {
+        background: #f5f5f5;
+    }
+
+    #projects .projects_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #projects .projects_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #projects .projects_bd ul {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li {
+        width: 25%;
+        position: relative;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 0;
+        text-align: center;
+    }
+
+    #projects .projects_bd ul li img {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li .mask {
+        width: 92%;
+        height: 94%;
+        margin: 4% 3%;
+        position: absolute;
+        border: 1px solid rgba(197, 20, 24, 0);
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+    }
+
+    #projects .projects_bd ul li .mask:hover {
+        margin: 4% 3%;
+        width: 92%;
+        height: 94%;
+        border: 1px solid rgba(197, 20, 24, 1);
+    }
+
+    #projects .projects_ft {
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+        background: url(../img/icon_longArrowRight_gray.png) no-repeat right center;
+    }
+
+    .moreBtn:hover {
+        background: url(../img/icon_longArrowRight_pre.png) no-repeat right center;
+    }
+
+    /*典型客户*/
+    #custormer .custormer_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #custormer .custormer_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #custormer .custormer_bd {
+        width: 100%;
+        /*padding: 0 15px;*/
+    }
+
+    #custormer .custormer_bd ul {
+        width: 100%;
+        list-style: none;
+    }
+
+    #custormer .custormer_bd ul li {
+        width: 16.5%;
+        float: left;
+        height: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #custormer .custormer_bd ul li img {
+        width: 80%;
+    }
+
+    #custormer .customer_ft {
+        width: 100%;
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    #custormer .customer_ft .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    /*================================================================================================*/
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1019px) {
+    #banner {
+        box-sizing: border-box;
+        padding-top: 80px;
+    }
+
+    #banner .bannerPic {
+        z-index: 0;
+        margin: 0 auto;
+        height: 320px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner .bannerPic .carouselImgCon {
+        position: relative;
+        text-align: center;
+    }
+
+    #banner .bannerPic .carouselImgCon a {
+        position: absolute;
+        left: 50%;
+        margin-left: -495px;
+    }
+
+    #banner .bannerPic .carouselImgCon a img {
+        width: 100%;
+        transition: all ease-in 2s;
+    }
+
+    #banner .bannerPic .carouselImgCon span.slogan {
+        position: absolute;
+        left: 50%;
+        top: 230px;
+        margin-left: -212px;
+        color: #FFFFFF;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.subDes {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        margin-left: -240px;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #banner .bannerPic .carouselImgCon span.learnMore {
+        position: absolute;
+        top: 340px;
+        left: 460px;
+        display: inline-block;
+        padding: 3px 10px;
+        background: #c51317;
+        color: #FFFFFF;
+        font-size: 16px;
+        border-radius: 2px;
+    }
+
+    .prev {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .next {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        right: 10%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+
+        -moz-user-select: none;
+
+        -ms-user-select: none;
+
+        user-select: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background: #c51317;
+        color: #ffffff;
+    }
+
+    #banner .circle {
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #banner .circle span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 1px solid #d6d5d5;
+        cursor: pointer;
+    }
+
+    #banner .circle span.active,
+    #banner .circle span:hover {
+        background: #c51317;
+        width: 4px;
+        height: 4px;
+        border: 3px solid #ffb1b3;
+        transform: scale(1.5);
+    }
+
+    /*产品模块*/
+    #products {
+        background: #FFFFFF;
+    }
+
+    #products .products_hd {
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #products .products_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #products .products_bd {
+        position: relative;
+        width: 100%;
+    }
+
+    #products .products_bd .tab {
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+
+    #products .products_bd .tab li {
+        display: inline-block;
+        margin-right: 30px;
+        width: 20%;
+        height: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+
+    #products .products_bd .tab li.active,
+    #products .products_bd .tab li.active:hover {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    #products .products_bd .tab li:hover {
+        border: 1px solid #D0D0D0;
+    }
+
+    #products .products_bd .tabCon {
+        /*margin-left: 5%;*/
+        width: 100%;
+        float: right;
+        transition: all ease-in 1s;
+        display: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #products .products_bd .tabCon ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #products .products_bd .tabCon ul li {
+        font-size: 0;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        transition: all ease-in 1s;
+    }
+
+    #products .products_bd .tabCon ul.one li {
+        width: 33.3%;
+    }
+
+    #products .products_bd .tabCon ul li img {
+        width: 100%;
+    }
+
+    #products .products_bd .tabCon ul.two li {
+        width: 50%;
+    }
+
+    #products .products_bd .tabCon ul li .textBox h3 {
+        color: #FFFFFF;
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+        margin-top: 8px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox {
+        height: 50%;
+        transition: all ease-in 0.8s;
+        padding: 10px;
+        background: rgba(150, 150, 150, 0.9);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    /*客户服务*/
+    #service .service_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #service .service_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #service .service_bd {
+
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #service .service_bd .imgBox {
+        font-size: 0;
+        width: 90%;
+        /*overflow: hidden;*/
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        margin: 0 5% 30px 5%;
+    }
+
+    #service .service_bd .imgBox .textBox {
+        width: 90%;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 5% 5% 5%;
+        color: #FFFFff;
+    }
+
+    #service .service_bd .imgBox img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        font-size: 1.5em;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    #service .service_bd .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+    }
+
+    /*帕吉优势*/
+    #advantage .advantage_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #advantage .advantage_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #advantage .advantage_bd ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #advantage .advantage_bd ul li {
+        float: left;
+        width: 40%;
+        text-align: center;
+        padding: 0 5% 90px 5%;
+        transition: all ease 1s;
+    }
+
+    #advantage .advantage_bd ul li img {
+        width: 72px;
+        height: 72px;
+    }
+
+    #advantage .advantage_bd ul li h3 {
+        margin: 10px 0;
+    }
+
+    #advantage .advantage_bd ul li p {
+        font-size: 0.875em;
+    }
+
+    #advantage .advantage_bd ul li p {
+        font-size: 0.875em;
+    }
+
+    #advantage .advantage_bd ul li:hover {
+        transform: translateY(-10px);
+    }
+
+    /*成功案例*/
+    #projects {
+        background: #f5f5f5;
+    }
+
+    #projects .projects_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #projects .projects_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #projects .projects_bd ul {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li {
+        width: 50%;
+        position: relative;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 0;
+        text-align: center;
+    }
+
+    #projects .projects_bd ul li img {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li .mask {
+        width: 92%;
+        height: 94%;
+        margin: 4% 3%;
+        position: absolute;
+        border: 1px solid rgba(197, 20, 24, 0);
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+    }
+
+    #projects .projects_bd ul li .mask:hover {
+        margin: 4% 3%;
+        width: 92%;
+        height: 94%;
+        border: 1px solid rgba(197, 20, 24, 1);
+    }
+
+    #projects .projects_ft {
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+        background: url(../img/icon_longArrowRight_gray.png) no-repeat right center;
+    }
+
+    .moreBtn:hover {
+        background: url(../img/icon_longArrowRight_pre.png) no-repeat right center;
+    }
+
+    /*典型客户*/
+    #custormer .custormer_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #custormer .custormer_hd span {
+        display: inline-block;
+        width: 100px;
+        height: 47px;
+        font: lighter 24px/47px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #custormer .custormer_bd {
+        width: 100%;
+        /*padding: 0 15px;*/
+    }
+
+    #custormer .custormer_bd ul {
+        width: 100%;
+        list-style: none;
+    }
+
+    #custormer .custormer_bd ul li {
+        width: 25%;
+        float: left;
+        height: 100px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #custormer .custormer_bd ul li img {
+        width: 80%;
+    }
+
+    #custormer .customer_ft {
+        width: 100%;
+        padding: 40px 0;
+        text-align: right;
+    }
+
+    #custormer .customer_ft .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+}
+
+/*=============================================================================*/
+@media only screen and (max-width: 767px ) {
+
+    #banner {
+        box-sizing: border-box;
+        padding-top: 80px;
+    }
+
+    #banner .bannerPic {
+        z-index: 0;
+        margin: 0 auto;
+        height: 220px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #banner .bannerPic .carouselImgCon {
+        position: relative;
+        text-align: center;
+    }
+
+    #banner .bannerPic .carouselImgCon a {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 220px;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    #banner .bannerPic .carouselImgCon a img {
+        position: absolute;
+        left: -20%;
+        top: 0;
+        width: 180%;
+        height:100%;
+        transition: all ease-in 2s;
+    }
+
+    .prev {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        left: 5%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .next {
+        background: rgba(100, 100, 100, 0.6);
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 45%;
+        right: 5%;
+        color: #f5f5f5;
+        font: lighter 18px/40px "微软雅黑";
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background: #c51317;
+        color: #ffffff;
+    }
+
+    #banner .circle {
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    #banner .circle span {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: #FFFFFF;
+        border-radius: 50%;
+        margin: 0 10px;
+        border: 1px solid #d6d5d5;
+        cursor: pointer;
+    }
+
+    #banner .circle span.active,
+    #banner .circle span:hover {
+        background: #c51317;
+        width: 4px;
+        height: 4px;
+        border: 3px solid #ffb1b3;
+        transform: scale(1.5);
+    }
+
+    /*产品模块*/
+    #products {
+        background: #FFFFFF;
+    }
+
+    #products .products_hd {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    #products .products_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #products .products_bd {
+        position: relative;
+        width: 100%;
+    }
+
+    #products .products_bd .tab {
+        width: 100%;
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+
+    #products .products_bd .tab li {
+        display: inline-block;
+        margin-right: 30px;
+        width: 30%;
+        height: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 50px;
+        font-size: 14px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+
+    #products .products_bd .tab li.active,
+    #products .products_bd .tab li.active:hover {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    #products .products_bd .tab li:hover {
+        border: 1px solid #D0D0D0;
+    }
+
+    #products .products_bd .tabCon {
+        /*margin-left: 5%;*/
+        width: 100%;
+        float: right;
+        transition: all ease-in 1s;
+        display: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    #products .products_bd .tabCon ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #products .products_bd .tabCon ul li {
+        font-size: 0;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        transition: all ease-in 1s;
+    }
+
+    #products .products_bd .tabCon ul li {
+        margin: 15px 5% 15px 5%;
+        width: 90%;
+    }
+
+    #products .products_bd .tabCon ul li img {
+        width: 100%;
+    }
+
+    #products .products_bd .tabCon ul li .textBox h3 {
+        color: #FFFFFF;
+        font-size: 1em;
+        line-height: 30px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+        margin-top: 8px;
+    }
+
+    #products .products_bd .tabCon ul li .textBox {
+        height: 33%;
+        transition: all ease-in 0.8s;
+        padding: 10px;
+        background: rgba(150, 150, 150, 0.7);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    #products .products_bd .tabCon ul.two li .textBox {
+        height: 60%;
+    }
+
+    /*客户服务*/
+    #service .service_hd {
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    #service .service_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 47px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #service .service_bd {
+
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #service .service_bd .imgBox {
+        width: 90%;
+        overflow: hidden;
+        position: relative;
+        background: rgba(0, 0, 0, 0.8);
+        box-sizing: border-box;
+        margin: 0 5% 30px 5%;
+        /*min-height:330px;*/
+        max-height:340px;
+        font-size: 0;
+    }
+
+    #service .service_bd .imgBox .textBox {
+        width: 90%;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 5% 10px 5%;
+        color: #FFFFff;
+    }
+
+    #service .service_bd .imgBox img {
+        /*width: 100%;*/
+        height: 100%;
+    }
+
+    #service .service_bd .textBox span.service_title {
+        color: #FFFFFF;
+        font-size: 1.5em;
+        border-bottom: 2px solid #FFFFFF;
+    }
+
+    #service .service_bd .textBox p {
+        color: #FFFFFF;
+        font-size: 0.75em;
+    }
+
+    /*帕吉优势*/
+    #advantage .advantage_hd {
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    #advantage .advantage_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #advantage .advantage_bd ul {
+        width: 100%;
+        position: relative;
+    }
+
+    #advantage .advantage_bd ul li {
+        float: left;
+        width: 80%;
+        text-align: center;
+        padding: 0 10% 90px 10%;
+        transition: all ease 1s;
+    }
+
+    #advantage .advantage_bd ul li img {
+        width: 72px;
+        height: 72px;
+    }
+
+    #advantage .advantage_bd ul li h3 {
+        margin: 10px 0;
+    }
+
+    #advantage .advantage_bd ul li p {
+        font-size: 0.875em;
+    }
+
+    #advantage .advantage_bd ul li:hover {
+        transform: translateY(-10px);
+    }
+
+    /*成功案例*/
+    #projects {
+        background: #f5f5f5;
+    }
+
+    #projects .projects_hd {
+        margin: 0 auto;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    #projects .projects_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #projects .projects_bd ul {
+        margin: 5%;
+        width: 90%;
+    }
+
+    #projects .projects_bd ul li {
+        width: 50%;
+        position: relative;
+        float: left;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 0;
+        text-align: center;
+    }
+
+    #projects .projects_bd ul li img {
+        width: 100%;
+    }
+
+    #projects .projects_bd ul li .mask {
+        width: 92%;
+        height: 94%;
+        margin: 4% 3%;
+        position: absolute;
+        border: 1px solid rgba(197, 20, 24, 0);
+        -webkit-transition: all 1s ease-in;
+        -moz-transition: all 1s ease-in;
+        -o-transition: all 1s ease-in;
+        transition: all 1s ease-in;
+    }
+
+    /*#projects .projects_bd ul li .mask:hover {*/
+        /*margin: 4% 3%;*/
+        /*width: 92%;*/
+        /*height: 94%;*/
+        /*border: 1px solid rgba(197, 20, 24, 1);*/
+    /*}*/
+
+    #projects .projects_ft {
+        width: 90%;
+        padding: 20px 5%;
+        text-align: right;
+    }
+
+    .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+        background: url(../img/icon_longArrowRight_gray.png) no-repeat right center;
+    }
+
+    .moreBtn:hover {
+        background: url(../img/icon_longArrowRight_pre.png) no-repeat right center;
+    }
+
+    /*典型客户*/
+    #custormer .custormer_hd {
+        margin: 0 auto;
+        padding: 74px 0;
+        text-align: center;
+    }
+
+    #custormer .custormer_hd span {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        font: lighter 18px/40px "微软雅黑";
+        border-top: 2px solid #333333;
+        border-bottom: 1px solid #333333;
+    }
+
+    #custormer .custormer_bd {
+        width: 100%;
+        /*padding: 0 15px;*/
+    }
+
+    #custormer .custormer_bd ul {
+        width: 100%;
+        list-style: none;
+    }
+
+    #custormer .custormer_bd ul li {
+        width: 40%;
+        float: left;
+        height: 80px;
+        margin: 0 5% 0 5%;
+        text-align: center;
+    }
+
+    #custormer .custormer_bd ul li img {
+        width: 80%;
+    }
+
+    #custormer .customer_ft {
+        width: 90%;
+        padding: 20px 5%;
+        text-align: right;
+    }
+
+    #custormer .customer_ft .moreBtn {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+}

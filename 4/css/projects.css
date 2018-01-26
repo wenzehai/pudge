@@ -1,0 +1,924 @@
+@media only screen and (min-width: 1200px ) {
+
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*典型客户*/
+    #main .logoBox {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main .logoBox .customerLogo {
+        float: left;
+        width: 20%;
+        height: 130px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #main .logoBox .customerLogo:hover img,
+    #main .logoBox .customerLogo:hover span {
+        transform: translateY(-5px);
+    }
+
+    #main .logoBox .customerLogo img {
+        transition: all ease-in 0.8s;
+        width: 190px;
+        display: inline-block;
+    }
+
+    #main .logoBox .customerLogo span {
+        transition: all ease-in 0.8s;
+        display: block;
+    }
+
+    /*主体内容*/
+    #main .content {
+        padding: 0 0 0 20px;
+        /*width: 850px;*/
+        text-align: center;
+    }
+
+    #main .content h2 {
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    #main .content h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+        text-align: left;
+    }
+
+    #main .content h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main .content p {
+        text-indent: 2em;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    #main .content p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+    }
+
+    #main .content h4.quote2 {
+        text-align: left;
+        text-indent: 0;
+        margin-left: 10px;
+        padding-left: 25px;
+        background: url(../img/quote2.png) no-repeat left center;
+    }
+
+    #main .content ul li {
+        margin-left: 15px;
+        list-style: square;
+        text-align: left;
+    }
+
+    #main .content img {
+        margin: 20px 0;
+        text-align: center;
+        max-width: 1100px;
+    }
+
+    /*经典案例格子页面*/
+    #main .projectsBox {
+        position: relative;
+        margin: 50px 0 100px 0;
+    }
+
+    #main .projectsBox li {
+        float: left;
+        width: 22%;
+        margin-bottom:30px;
+        display: block;
+        margin-left: 4%;
+        position: relative;
+        transition: all ease-in 0.5s;
+    }
+
+    #main .projectsBox li:hover {
+        box-shadow: 0 2px 10px rgba(200, 200, 200, 0.8);
+        transform: translateY(-5px);
+    }
+
+    /*#main .projectsBox li:nth-child(even) {*/
+        /*margin-top: 30px;*/
+    /*}*/
+    #main .projectsBox li:nth-child(1) {
+        margin-left:0;
+    }
+
+    #main .projectsBox li img {
+        width: 100%;
+    }
+
+    #main .projectsBox li span {
+        display: inline-block;
+        width: 100%;
+        background: #666666;
+        position: absolute;
+        font-size: 0.875em;
+        left: 0;
+        bottom: 0;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+/*====================================================================*/
+@media only screen and (min-width: 1020px) and (max-width: 1199px) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*典型客户*/
+    #main .logoBox {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main .logoBox .customerLogo {
+        float: left;
+        width: 20%;
+        height: 130px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #main .logoBox .customerLogo:hover img,
+    #main .logoBox .customerLogo:hover span {
+        transform: translateY(-5px);
+    }
+
+    #main .logoBox .customerLogo img {
+        transition: all ease-in 0.8s;
+        width: 190px;
+        display: inline-block;
+    }
+
+    #main .logoBox .customerLogo span {
+        transition: all ease-in 0.8s;
+        display: block;
+    }
+
+    /*主体内容*/
+    #main .content {
+        padding: 0 0 0 20px;
+        /*width: 850px;*/
+        text-align: center;
+    }
+
+    #main .content h2 {
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    #main .content h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+        text-align: left;
+    }
+
+    #main .content h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main .content p {
+        text-indent: 2em;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    #main .content p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+    }
+
+    #main .content h4.quote2 {
+        text-align: left;
+        text-indent: 0;
+        margin-left: 10px;
+        padding-left: 25px;
+        background: url(../img/quote2.png) no-repeat left center;
+    }
+
+    #main .content ul li {
+        margin-left: 15px;
+        list-style: square;
+        text-align: left;
+    }
+
+    #main .content img {
+        margin: 20px 0;
+        text-align: center;
+        max-width: 1100px;
+    }
+
+    /*经典案例格子页面*/
+    #main .projectsBox {
+        position: relative;
+        margin: 50px 0 100px 0;
+    }
+
+    #main .projectsBox li {
+        float: left;
+        width: 22%;
+        margin-bottom:30px;
+        display: block;
+        margin-left: 4%;
+        position: relative;
+        transition: all ease-in 0.5s;
+    }
+
+    #main .projectsBox li:hover {
+        box-shadow: 0 2px 10px rgba(200, 200, 200, 0.8);
+        transform: translateY(-5px);
+    }
+
+    /*#main .projectsBox li:nth-child(even) {*/
+    /*margin-top: 30px;*/
+    /*}*/
+    #main .projectsBox li:nth-child(1) {
+        margin-left:0;
+    }
+
+    #main .projectsBox li img {
+        width: 100%;
+    }
+
+    #main .projectsBox li span {
+        display: inline-block;
+        width: 100%;
+        background: #666666;
+        position: absolute;
+        font-size: 0.875em;
+        left: 0;
+        bottom: 0;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+/*=======================================================================*/
+@media only screen and (min-width: 768px) and (max-width: 1019px) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*典型客户*/
+    #main .logoBox {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main .logoBox .customerLogo {
+        float: left;
+        width: 25%;
+        height: 130px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #main .logoBox .customerLogo:hover img,
+    #main .logoBox .customerLogo:hover span {
+        transform: translateY(-5px);
+    }
+
+    #main .logoBox .customerLogo img {
+        transition: all ease-in 0.8s;
+        width: 190px;
+        display: inline-block;
+    }
+
+    #main .logoBox .customerLogo span {
+        transition: all ease-in 0.8s;
+        display: block;
+    }
+
+    /*主体内容*/
+    #main .content {
+        padding: 0 0 0 20px;
+        /*width: 850px;*/
+        text-align: center;
+    }
+
+    #main .content h2 {
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    #main .content h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+        text-align: left;
+    }
+
+    #main .content h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main .content p {
+        text-indent: 2em;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    #main .content p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+    }
+
+    #main .content h4.quote2 {
+        text-align: left;
+        text-indent: 0;
+        margin-left: 10px;
+        padding-left: 25px;
+        background: url(../img/quote2.png) no-repeat left center;
+    }
+
+    #main .content ul li {
+        margin-left: 15px;
+        list-style: square;
+        text-align: left;
+    }
+
+    #main .content img {
+        margin: 20px 0;
+        text-align: center;
+        max-width: 1100px;
+    }
+
+    /*经典案例格子页面*/
+    #main .projectsBox {
+        position: relative;
+        margin: 50px 0 100px 0;
+    }
+
+    #main .projectsBox li {
+        float: left;
+        width: 45%;
+        display: block;
+        margin-bottom:30px;
+
+        margin-left: 5%;
+        position: relative;
+        transition: all ease-in 0.5s;
+    }
+
+    #main .projectsBox li:hover {
+        box-shadow: 0 2px 10px rgba(200, 200, 200, 0.8);
+        transform: translateY(-5px);
+    }
+
+    #main .projectsBox li:nth-child(1),
+    #main .projectsBox li:nth-child(3){
+        margin-left:0;
+    }
+
+    #main .projectsBox li img {
+        width: 100%;
+    }
+
+    #main .projectsBox li span {
+        display: inline-block;
+        width: 100%;
+        background: #666666;
+        position: absolute;
+        font-size: 1em;
+        left: 0;
+        bottom: 0;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+/*==========================================================================*/
+@media only screen and (max-width: 767px ) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 2em;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 40px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+        padding-right: 15px;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+        font-size: 0.875em;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*典型客户*/
+    #main .logoBox {
+        position: relative;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #main .logoBox .customerLogo {
+        float: left;
+        width: 50%;
+        height: 130px;
+        /*margin-top: 20px;*/
+        text-align: center;
+    }
+
+    #main .logoBox .customerLogo:hover img,
+    #main .logoBox .customerLogo:hover span {
+        transform: translateY(-5px);
+    }
+
+    #main .logoBox .customerLogo img {
+        transition: all ease-in 0.8s;
+        /*width: 190px;*/
+        display: inline-block;
+        width: 70%;
+    }
+
+    #main .logoBox .customerLogo span {
+        transition: all ease-in 0.8s;
+        display: block;
+    }
+
+    /*主体内容*/
+    #main .content {
+        /*width: 850px;*/
+        text-align: center;
+    }
+
+    #main .content h2 {
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: normal;
+    }
+
+    #main .content h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    #main .content h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main .content p {
+        text-indent: 2em;
+        text-align: left;
+        font-size: 0.875em;
+        width: 90%;
+        margin: 0 5% 15px 5%;
+    }
+
+    #main .content p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+    }
+
+    #main .content h4.quote2 {
+        text-align: left;
+        text-indent: 0;
+        margin-left: 10px;
+        padding-left: 25px;
+        background: url(../img/quote2.png) no-repeat left center;
+    }
+
+    #main .content ul li {
+        margin-left: 15px;
+        list-style: square;
+        text-align: left;
+    }
+
+    #main .content img {
+        margin: 20px 0;
+        text-align: center;
+        max-width: 1100px;
+        width: 100%;
+    }
+
+    /*经典案例格子页面*/
+    #main .projectsBox {
+        position: relative;
+        margin: 50px 0 30px 0;
+    }
+
+    #main .projectsBox li {
+        float: left;
+        width: 45%;
+        display: block;
+        margin-bottom:30px;
+        margin-left: 3%;
+        position: relative;
+        transition: all ease-in 0.5s;
+    }
+
+    #main .projectsBox li:hover {
+        box-shadow: 0 2px 10px rgba(200, 200, 200, 0.8);
+        transform: translateY(-5px);
+    }
+
+    #main .projectsBox li img {
+        width: 100%;
+    }
+
+    #main .projectsBox li span {
+        display: inline-block;
+        width: 90%;
+        background: #666666;
+        position: absolute;
+        font-size: 0.875em;
+        line-height: 1.25em;
+        padding: 10px 5%;
+        left: 0;
+        bottom: 0;
+        color: #FFFFFF;
+        text-align: left;
+        height: 30px;
+    }
+}

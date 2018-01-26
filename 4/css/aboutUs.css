@@ -1,0 +1,1213 @@
+@media only screen and (min-width: 1200px ) {
+
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*图文混排*/
+    /*公司简介部分*/
+    #main .container {
+        padding-bottom: 50px;
+    }
+
+    #main section div.left,
+    #main section div.right {
+        width: 48%;
+        overflow: hidden;
+    }
+
+    #main section h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+    }
+
+    #main section p {
+        font-size: 0.875em;
+        margin-bottom:15px;
+        text-indent: 2em;
+    }
+
+    #main section img {
+        width: 100%;
+    }
+
+    /*使命部分*/
+    #main section h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main section p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+        font-size: 0.875em;
+    }
+
+    #main section .smallPic {
+        width: 100%;
+    }
+
+    #main section dl {
+        padding: 0 20px;
+        width: 50%;
+    }
+
+    #main section dl dt {
+        font-size: 16px;
+        margin: 15px 0 8px 0;
+    }
+
+    #main section dl dd {
+        font-size: 14px;
+    }
+
+    /*发展历史部分*/
+    #main .growBox {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #111;
+    }
+
+    #main .growBox .eventList {
+        background: url(../img/dian3.png) 100px 0 repeat-y;
+        list-style: none;
+        margin: 10px 0 20px 0;
+        padding: 20px 20px 20px 0;
+
+    }
+
+    #main .growBox .eventList h4 {
+        margin: 0 0 10px 93px;
+        font-size: 24px;
+        color: #c51317;
+        padding-left: 25px;
+        background: url(../img/jian.png) 0 -45px no-repeat;
+        height: 38px;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    #main .growBox .eventList li {
+        background: url(../img/jian.png) 97px -86px no-repeat;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #main .growBox .eventList li > span {
+        width: 70px;
+        text-align: right;
+        float: left;
+        margin-top: 5px;
+    }
+
+    #main .growBox .eventList li > p {
+        color: rgb(51, 51, 51);
+        font-size: 14px;
+        font-weight: lighter;
+        position: relative;
+        padding: 0 10px 0 60px;
+        float: right;
+        width: 80%;
+        margin: 0 3%;
+        text-indent: 0;
+    }
+    /*公司荣誉*/
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        height: 450px;
+        margin-left:2%;
+    }
+
+    #main .horCon div.first {
+        width: 16%;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 30%;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.third {
+        width: 45%;
+        height: 450px;
+    }
+
+    #main .horCon div.third img {
+        margin-top: 10px;
+    }
+    #main .horCon:nth-child(1) .third img {
+        width: 300px;
+    }
+
+    /*联系我们*/
+    #main .mapBox {
+        width: 50%;
+        height: 400px;
+        border: 1px solid #d0d0d0;
+        margin-bottom: 30px;
+    }
+
+    #main .noMarginTop {
+        margin-top: 0;
+    }
+
+}
+
+/*====================================================================*/
+@media only screen and (min-width: 1020px) and (max-width: 1199px) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*图文混排*/
+    /*公司简介部分*/
+    #main .container {
+        padding-bottom: 50px;
+    }
+
+    #main section div.left,
+    #main section div.right {
+        width: 48%;
+        overflow: hidden;
+    }
+
+    #main section h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+    }
+
+    #main section p {
+        margin-bottom: 15px;
+        text-indent: 2em;
+        font-size:0.875em;
+    }
+
+    #main section img {
+        width: 100%;
+    }
+
+    /*使命部分*/
+    #main section h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main section p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+        font-size:0.875em;
+    }
+
+    #main section .smallPic {
+        width: 100%;
+    }
+
+    #main section dl {
+        padding: 0 20px;
+        width: 50%;
+    }
+
+    #main section dl dt {
+        font-size: 16px;
+        margin: 15px 0 8px 0;
+    }
+
+    #main section dl dd {
+        font-size: 14px;
+    }
+
+    /*发展历史部分*/
+    #main .growBox {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #111;
+    }
+
+    #main .growBox .eventList {
+        background: url(../img/dian3.png) 100px 0 repeat-y;
+        list-style: none;
+        margin: 10px 0 20px 0;
+        padding: 20px 20px 20px 0;
+
+    }
+
+    #main .growBox .eventList h4 {
+        margin: 0 0 10px 93px;
+        font-size: 24px;
+        color: #c51317;
+        padding-left: 25px;
+        background: url(../img/jian.png) 0 -45px no-repeat;
+        height: 38px;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    #main .growBox .eventList li {
+        background: url(../img/jian.png) 97px -86px no-repeat;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #main .growBox .eventList li > span {
+        width: 70px;
+        text-align: right;
+        float: left;
+        margin-top: 5px;
+    }
+
+    #main .growBox .eventList li > p {
+        color: rgb(51, 51, 51);
+        font-size: 14px;
+        font-weight: lighter;
+        position: relative;
+        padding: 0 10px 0 60px;
+        float: right;
+        width: 80%;
+        margin: 0;
+        text-indent: 0;
+    }
+
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        /*margin-right: 15px;*/
+        height: 450px;
+    }
+
+    #main .horCon div.first {
+        width: 170px;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 370px;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.thrid {
+        width: 560px;
+    }
+
+    #main .horCon div.thrid img {
+        margin-top: 10px;
+        height: 410px;
+    }
+
+    #main .mapBox {
+        width: 50%;
+        height: 400px;
+        border: 1px solid #d0d0d0;
+
+        margin-bottom: 30px;
+    }
+
+    #main .noMarginTop {
+        margin-top: 0;
+    }
+    /*公司荣誉*/
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+        width: 100%;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        height: 450px;
+        margin-left:2%;
+    }
+
+    #main .horCon div.first {
+        width: 15%;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 30%;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.third {
+        width: 45%;
+        height: 450px;
+    }
+
+    #main .horCon div.third img {
+        margin-top: 10px;
+    }
+    #main .horCon:nth-child(1) .third img {
+        width: 300px;
+    }
+
+    /*联系我们*/
+    #main .mapBox {
+        width: 50%;
+        height: 400px;
+        border: 1px solid #d0d0d0;
+        margin-bottom: 30px;
+    }
+
+    #main .noMarginTop {
+        margin-top: 0;
+    }
+}
+
+/*===========================================================================*/
+@media only screen and (min-width: 768px) and (max-width: 1019px) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 48px;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 60px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 60px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*图文混排*/
+    /*公司简介部分*/
+    #main .container {
+        padding-bottom: 50px;
+    }
+
+    #main section div.left,
+    #main section div.right {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #main section h3 {
+        color: #c51317;
+        margin: 20px 0 15px 0;
+    }
+
+    #main section p {
+        margin-bottom: 15px;
+        text-indent: 2em;
+        font-size:0.875em;
+    }
+
+    #main section img {
+        width: 100%;
+    }
+
+    /*使命部分*/
+    #main section h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+    }
+
+    #main section p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+        font-size:0.875em;
+    }
+
+    #main section .smallPic {
+        width: 100%;
+    }
+
+    #main section dl {
+        padding: 0 20px;
+        width: 50%;
+    }
+
+    #main section dl dt {
+        font-size: 16px;
+        margin: 15px 0 8px 0;
+    }
+
+    #main section dl dd {
+        font-size: 14px;
+    }
+
+    /*发展历史部分*/
+    #main .growBox {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #111;
+    }
+
+    #main .growBox .eventList {
+        background: url(../img/dian3.png) 100px 0 repeat-y;
+        list-style: none;
+        margin: 10px 0 20px 0;
+        padding: 20px 20px 20px 0;
+
+    }
+
+    #main .growBox .eventList h4 {
+        margin: 0 0 10px 93px;
+        font-size: 24px;
+        color: #c51317;
+        padding-left: 25px;
+        background: url(../img/jian.png) 0 -45px no-repeat;
+        height: 38px;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    #main .growBox .eventList li {
+        background: url(../img/jian.png) 97px -86px no-repeat;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #main .growBox .eventList li > span {
+        width: 70px;
+        text-align: right;
+        float: left;
+        margin-top: 5px;
+    }
+
+    #main .growBox .eventList li > p {
+        color: rgb(51, 51, 51);
+        font-size: 14px;
+        font-weight: lighter;
+        position: relative;
+        padding: 0 10px 0 60px;
+        float: right;
+        width: 80%;
+        margin: 0;
+        text-indent: 0;
+    }
+
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        margin-right: 15px;
+        height: 450px;
+    }
+
+    #main .horCon div.first {
+        width: 170px;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 370px;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.thrid {
+        width: 560px;
+    }
+
+    #main .horCon div.thrid img {
+        margin-top: 10px;
+        height: 410px;
+    }
+
+    #main .mapBox.left {
+        width: 100%;
+        height: 400px;
+        border: 1px solid #d0d0d0;
+        margin-bottom: 30px;
+    }
+
+    #main .container section .right {
+        width: 100%;
+    }
+
+    #main .noMarginTop {
+        margin-top: 0;
+    }
+
+    /*公司荣誉*/
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        height: 450px;
+        margin-left:2%;
+    }
+
+    #main .horCon div.first {
+        width: 16%;
+        display: none;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 30%;
+        display: none;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.third {
+        width: 90%;
+        height: 450px;
+    }
+
+    #main .horCon div.third img {
+        margin-top: 10px;
+    }
+    #main .horCon:nth-child(1) .third img {
+        width: 300px;
+    }
+}
+
+/*===========================================================================*/
+
+@media only screen and (max-width: 767px ) {
+    /*顶部图片*/
+    #topBanner {
+        padding-top: 100px;
+        z-index: 9;
+        margin: 0 auto;
+        position: relative;
+        background: url(../img/topbanner.jpg) no-repeat center top;
+        background-size: cover;
+        height: 250px;
+    }
+
+    #topBanner span.pageTitle {
+        position: absolute;
+        top: 99px;
+        left: 76px;
+        font-size: 2em;
+        color: #FFFFFF;
+        font-weight: lighter;
+    }
+
+    /*面包屑*/
+    #bread {
+        margin-bottom: 40px;
+    }
+
+    #bread .container {
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    #bread .breadcrumb {
+        position: relative;
+        padding-right: 5%;
+    }
+
+    #bread .breadcrumb li {
+        float: left;
+
+    }
+
+    #bread .breadcrumb li a {
+        line-height: 48px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background: url(../img/icon_arrowRight.png) no-repeat right center;
+        font-size: 12px;
+        color: #c51317;
+        cursor: pointer;
+    }
+
+    #bread .breadcrumb li a:hover {
+        text-decoration: underline;
+        color: #c51317;
+    }
+
+    #bread .breadcrumb li.active {
+        font-size: 12px;
+        line-height: 47px;
+        padding-left: 10px;
+        color: #a3a3a3;
+        background: none;
+        padding-right: 0;
+    }
+
+    /*主选项卡*/
+    #mainTab {
+        margin-bottom: 40px;
+    }
+
+    #mainTab ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    #mainTab ul li {
+        display: inline-block;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    #mainTab ul li a {
+        min-width: 55px;
+        padding: 0 20px;
+        font-size: 0.875em;
+        display: inline-block;
+        line-height: 40px;
+        color: #666666;
+        border: 1px solid #FFFFFF;
+    }
+
+    #mainTab ul li:hover a {
+        color: #333333;
+        border: 1px solid #aeaeae;
+    }
+
+    #mainTab ul li.active a {
+        border: 1px solid #c51317;
+        color: #c51317;
+    }
+
+    /*图文混排*/
+    /*公司简介部分*/
+    #main .container {
+        padding-bottom: 50px;
+    }
+
+    #main section div.left,
+    #main section div.right {
+        width: 90%;
+        margin: 0 5%;
+        overflow: hidden;
+    }
+
+    #main section h3 {
+        color: #c51317;
+        margin: 20px 0 15px 15px;
+    }
+    #main section h3.firstHeader {
+        margin-left:15px;
+    }
+    #main section p {
+        width: 90%;
+        margin: 0 5% 15px 5%;
+        text-indent: 2em;
+        font-size: 0.875em;
+    }
+
+    #main section img {
+
+        width: 100%;
+    }
+
+    /*使命部分*/
+    #main section h4 {
+        margin: 15px 0 10px 0;
+        text-indent: 2em;
+
+    }
+    #main section .contactPara {
+        text-indent: 0;
+        margin-left:0;
+    }
+    #main section p.quote1 {
+        text-indent: 0;
+        margin-left: 34px;
+        padding-left: 8px;
+        border-left: 2px solid #c51317;
+        font-size: 0.875em;
+    }
+
+    #main section .smallPic {
+        width: 100%;
+    }
+
+    #main section dl {
+        padding: 0 20px;
+        width: 50%;
+    }
+
+    #main section dl dt {
+        font-size: 16px;
+        margin: 15px 0 8px 0;
+    }
+
+    #main section dl dd {
+        font-size: 14px;
+    }
+
+    /*发展历史部分*/
+    #main .growBox {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #111;
+    }
+
+    #main .growBox .eventList {
+        background: url(../img/dian3.png) 100px 0 repeat-y;
+        list-style: none;
+        margin: 10px 0 20px 0;
+        padding: 20px 20px 20px 0;
+
+    }
+
+    #main .growBox .eventList h4 {
+        margin: 0 0 10px 93px;
+        font-size: 24px;
+        color: #c51317;
+        padding-left: 25px;
+        background: url(../img/jian.png) 0 -45px no-repeat;
+        height: 38px;
+        line-height: 30px;
+        font-style: italic;
+    }
+
+    #main .growBox .eventList li {
+        background: url(../img/jian.png) 97px -86px no-repeat;
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    #main .growBox .eventList li > span {
+        width: 70px;
+        text-align: right;
+        float: left;
+        margin-top: 5px;
+    }
+
+    #main .growBox .eventList li > p {
+        color: rgb(51, 51, 51);
+        font-size: 14px;
+        font-weight: lighter;
+        position: relative;
+        padding: 0 10px 0 60px;
+        float: right;
+        width: 65%;
+        margin: 0;
+        text-indent: 0;
+    }
+
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        margin-right: 15px;
+        height: 450px;
+    }
+
+    #main .horCon div.first {
+        width: 170px;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 370px;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.thrid {
+        width: 560px;
+    }
+
+    #main .horCon div.thrid img {
+        margin-top: 10px;
+        height: 410px;
+    }
+
+    /*联系我们*/
+    #main .mapBox.left {
+        width: 90%;
+        height: 400px;
+        border: 1px solid #d0d0d0;
+        margin-bottom: 30px;
+    }
+
+    #main .noMarginTop {
+        margin-top: 0;
+    }
+
+    /*公司荣誉*/
+    #main .horCon {
+        margin-top: 40px;
+        position: relative;
+        width: 100%;
+    }
+
+    #main .horCon div.left {
+        text-align: center;
+        background: #F5F5F5;
+        border: 1px solid #d0d0d0;
+        height: 450px;
+        margin-left:2%;
+        /*margin-bottom: 30px;*/
+    }
+
+    #main .horCon div.first {
+        width: 25%;
+        display: none;
+    }
+
+    #main .horCon div.first h2 {
+        line-height: 450px;
+    }
+
+    #main .horCon div.second {
+        width: 65%;
+        display: none;
+    }
+
+    #main .horCon div.second p {
+        line-height: 450px;
+        text-indent: 0;
+    }
+
+    #main .horCon div.third {
+        width: 95%;
+        height: 450px;
+    }
+
+    #main .horCon div.third img {
+        margin-top: 10px;
+    }
+    #main .horCon:nth-child(1) .third img {
+        width: 300px;
+    }
+}
