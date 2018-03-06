@@ -427,7 +427,7 @@ a:hover {
     #footer .footer_hd ul li {
         border-left: 1px solid #e4e4e4;
         float: left;
-        height: 100px;
+        height: 110px;
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -447,37 +447,42 @@ a:hover {
     }
 
     #footer .footer_hd ul li:nth-child(2),
+    #footer .footer_hd ul li:nth-child(4),
     #footer .footer_hd ul li:nth-child(3) {
-        width: 30%;
+        width: 20%;
+        padding: 0 1.5%;
+        text-align: left;
+    }
+
+    #footer .footer_hd ul li:nth-child(5) {
+        width: 20%;
         padding: 0 2.5%;
         text-align: left;
     }
 
-    #footer .footer_hd ul li:nth-child(4) {
-        width: 20%;
-        padding: 0 2.5%;
-        text-align: center;
-    }
-
-    #footer .footer_hd ul li:nth-child(4) img {
+    #footer .footer_hd ul li:nth-child(5) img {
         width: 100px;
     }
 
-    #footer .footer_hd ul li:nth-child(2) h4 {
-        font-size: 0.875em;
-        font-weight: bold;
-    }
-
-    #footer .footer_hd ul li:nth-child(2) p {
-        font-size: 0.75em;
-    }
-
+    #footer .footer_hd ul li:nth-child(2) h4,
+    #footer .footer_hd ul li:nth-child(5) h4,
     #footer .footer_hd ul li:nth-child(3) h4 {
         font-size: 0.875em;
         font-weight: bold;
     }
 
+    #footer .footer_hd ul li:nth-child(2) p,
+    #footer .footer_hd ul li:nth-child(5) p,
     #footer .footer_hd ul li:nth-child(3) p {
+        font-size: 0.75em;
+    }
+
+    #footer .footer_hd ul li:nth-child(4) h4 {
+        font-size: 0.875em;
+        font-weight: bold;
+    }
+
+    #footer .footer_hd ul li:nth-child(4) p {
         font-size: 0.75em;
     }
 
